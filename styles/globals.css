@@ -1,16 +1,132 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-a {
-  color: inherit;
+.App {
+  position: relative;
+}
+h1,
+h2,
+h3 {
+  font-family: "Dangrek", sans-serif;
+}
+h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+}
+h2 {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+h3 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+p,
+span,
+a,
+li,
+small,
+button,
+label ::placeholder,
+form {
+  font-family: "Siemreap", sans-serif;
+}
+.section-one {
+  position: relative;
+  min-height: 800px;
+}
+.ios-download {
+  height: 37.5rem;
+}
+.section-two {
+  position: relative;
+  min-height: 700px;
+}
+.section-two img {
+  width: 600px;
+}
+.server-image-section {
+  height: 500px;
+}
+.top-image-section {
+  height: 100px;
+}
+.section-three {
+  position: relative;
+  min-height: 1200px;
+}
+.section-four {
+  position: relative;
+  min-height: 500px;
+}
+.section-five {
+  position: relative;
+  min-height: 400px;
+}
+.section-six {
+  position: relative;
+  min-height: 500px;
+}
+.form-height {
+  min-height: 300px;
+}
+@media only screen and (max-width: 992px) {
+  h1 {
+    font-size: 1.5rem;
+    line-height: 1.2;
+  }
+  h2 {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+  h3 {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+.coolBeans {
+  /* border: 2px solid currentColor; */
+  background-color: rgb(222, 229, 233);
+  border-radius: 3rem;
+  color: black;
+  font-size: 1.125rem /* 18px */;
+  line-height: 1.75rem /* 28px */;
+  font-weight: 100;
+  overflow: hidden;
+  position: relative;
   text-decoration: none;
+  transition: 0.2s transform ease-in-out;
+  will-change: transform;
+  z-index: 0;
 }
-
-* {
-  box-sizing: border-box;
+.coolBeans::after {
+  background-color: rgb(32, 25, 25);
+  border-radius: 3rem;
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(-100%, 0) rotate(10deg);
+  transform-origin: top left;
+  transition: 0.2s transform ease-out;
+  will-change: transform;
+  z-index: -1;
+}
+.coolBeans:hover::after {
+  transform: translate(0, 0);
+}
+.coolBeans:hover {
+  border: 2px solid transparent;
+  color: white;
+  transform: scale(1.1);
+  will-change: transform;
+}
+.top-image {
+  height: 400px;
+  width: 100%;
+  padding: 10px;
 }
