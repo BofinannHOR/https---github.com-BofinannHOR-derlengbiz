@@ -11,30 +11,30 @@ function TopSlide() {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToShow: 4,
+    slidesToScroll: 4,
     responsive: [
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
+          slidesToShow: 3,
+          slidesToScroll: 3,
           infinite: true,
         },
       },
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
+          slidesToShow: 2,
+          slidesToScroll: 2,
           initialSlide: 0,
         },
       },
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
+          slidesToShow: 2,
+          slidesToScroll: 2,
         },
       },
     ],
@@ -45,11 +45,11 @@ function TopSlide() {
         {/* image */}
         {TopData.map((item) => (
           <div className="top-image-section">
-            <div className="flex items-center mt-10 p-3 h-96 w-full">
+            <div className="flex items-center mt-10 p-3 lg:h-44 h:62 w-full">
               <img
                 src={item.image}
                 alt=""
-                className="object-fill rounded-xl shadow-md mt-10 h-full"
+                className="object-fill rounded-xl shadow-md mt-10 h-44"
               />
             </div>
           </div>

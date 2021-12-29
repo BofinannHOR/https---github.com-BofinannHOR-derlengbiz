@@ -1,22 +1,22 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import logo from "../public/derleng.png";
+import logo2 from "../public/derlenglogo2.png";
 
 function Navbar({ fixed }) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
-    <nav className="py-8 relative flex flex-wrap items-center justify-between px-2 bg-white mb-2 border-b-2">
-      <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
+    <nav className="py-2 relative flex flex-wrap items-center justify-between px-2 bg-white">
+      <div className="container px-4 mx-auto flex flex-col lg:flex-row lg:items-center justify-between">
         <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
           <div className="md:mx-20">
             <nav className="flex flex-row">
               <Link href="/">
-                <a>
+                <a className="lg:w-5/6 w-2/4">
                   {/* <h1 className="text-8xl font-medium text-slate-700">
                     ដើរលេង
                   </h1> */}
-                  <Image src={logo} width={100} height={100}></Image>
+                  <Image src={logo2} width={250} height={100}></Image>
                 </a>
               </Link>
             </nav>
@@ -59,8 +59,8 @@ function Navbar({ fixed }) {
                     className="px-3 py-2 flex items-center text-xs uppercase  leading-snug text-slate-700 hover:opacity-75"
                     href="#pablo"
                   >
-                    <i className="text-lg leading-lg text-slate-700 opacity-75"></i>
-                    <span className="text-lg text-slate-700 hover:text-blue-800 hover:-translate-y-1 transition ease-in-out delay-150 ">
+                    <i className=" text-slate-700 opacity-75"></i>
+                    <span className="text-lg truncate p-1 text-slate-700 hover:text-blue-800 hover:-translate-y-1 transition ease-in-out delay-150 ">
                       {" "}
                       ទំព័រដើម
                     </span>
@@ -73,11 +73,11 @@ function Navbar({ fixed }) {
                 {" "}
                 <li className="nav-item rounded-xl">
                   <a
-                    className="px-3 py-2 flex items-center text-xs uppercase  leading-snug text-slate-700 hover:opacity-75"
+                    className="px-3 py-2 flex items-center uppercase  leading-snug text-slate-700 hover:opacity-75"
                     href="#pablo"
                   >
-                    <i className="text-lg leading-lg text-slate-700 opacity-75"></i>
-                    <span className="text-lg text-slate-700 hover:text-blue-800">
+                    <i className="text-slate-700 opacity-75"></i>
+                    <span className="text-lg truncate p-1 text-slate-700 hover:text-blue-800">
                       {" "}
                       ដើរលេងជាអ្វី?
                     </span>
@@ -93,8 +93,8 @@ function Navbar({ fixed }) {
                     className="px-3 py-2 flex items-center text-xs uppercase  leading-snug text-slate-700 hover:opacity-75"
                     href="#pablo"
                   >
-                    <i className="text-lg leading-lg text-slate-700 opacity-75"></i>
-                    <span className="text-lg text-slate-700 hover:text-blue-800">
+                    <i className=" text-slate-700 opacity-75"></i>
+                    <span className="text-lg truncate p-1 text-slate-700 hover:text-blue-800">
                       {" "}
                       សេវាកម្ម
                     </span>
@@ -110,8 +110,8 @@ function Navbar({ fixed }) {
                     className="px-3 py-2 flex items-center text-xs uppercase  leading-snug text-slate-700 hover:opacity-75"
                     href="#pablo"
                   >
-                    <i className="text-lg leading-lg text-slate-700 opacity-75"></i>
-                    <span className="text-lg text-slate-700 hover:text-blue-800">
+                    <i className="text-slate-700 opacity-75"></i>
+                    <span className="text-lg truncate p-1 text-slate-700 hover:text-blue-800">
                       {" "}
                       របៀបប្រើប្រាស់
                     </span>
@@ -127,8 +127,8 @@ function Navbar({ fixed }) {
                     className="px-3 py-2 flex items-center text-xs uppercase  leading-snug text-slate-700 hover:opacity-75"
                     href="#pablo"
                   >
-                    <i className="text-lg leading-lg text-slate-700 opacity-75"></i>
-                    <span className="text-lg text-slate-700 hover:text-blue-800">
+                    <i className="text-slate-700 opacity-75"></i>
+                    <span className="text-lg truncate p-1 text-slate-700 hover:text-blue-800">
                       {" "}
                       ព័ត៌មាន
                     </span>
@@ -144,8 +144,8 @@ function Navbar({ fixed }) {
                     className="px-3 py-2 flex items-center text-xs uppercase  leading-snug text-slate-700 hover:opacity-75"
                     href="#pablo"
                   >
-                    <i className="text-lg leading-lg text-slate-700 opacity-75"></i>
-                    <span className="text-lg text-slate-700 hover:text-blue-800">
+                    <i className="text-slate-700 opacity-75"></i>
+                    <span className="text-lg truncate p-1 text-slate-700 hover:text-blue-800">
                       {" "}
                       ទំនាក់ទំនង
                     </span>

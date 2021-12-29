@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import ios from "../public/ios.svg";
 import android from "../public/android.svg";
+import Link from "next/link";
 
 const Introduction = () => {
   return (
@@ -28,10 +29,13 @@ const Introduction = () => {
             <span className="text-3xl font-bold ">iOS</span>
           </div>
           <div className="mb-10">
-            <button className="coolBeans py-3 px-5 ">Download</button>
+            <Link href="https://apps.apple.com/kh/app/derleng/id1527904771">
+              <a>
+                <button className="coolBeans py-3 px-5 ">Download</button>
+              </a>
+            </Link>
           </div>
           {/* image */}
-
           <Image src={ios} />
         </div>
         {/* android */}
@@ -40,7 +44,11 @@ const Introduction = () => {
             <span className="text-3xl font-bold">Android</span>
           </div>
           <div className="mb-10">
-            <button className="coolBeans py-3 px-5 ">Download</button>
+            <Link href="https://play.google.com/store/apps/details?id=biz.derleng.mobileapp">
+              <a>
+                <button className="coolBeans py-3 px-5 ">Download</button>
+              </a>
+            </Link>
           </div>
           {/* image */}
           <Image src={android} />

@@ -57,7 +57,7 @@ function ServiceSlide() {
                 <h3 className="mb-3">{item.title}</h3>
                 <p>{item.description}</p>
                 <button className="mt-3 text-blue-600 hover:border-b-2 border-blue-600">
-                  <h3 className="text-base">អាន​បន្ថែម mmmm</h3>
+                  <h3 className="text-base">អាន​បន្ថែម</h3>
                 </button>
               </div>
             </div>
