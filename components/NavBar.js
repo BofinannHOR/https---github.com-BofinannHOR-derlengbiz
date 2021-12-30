@@ -77,7 +77,7 @@ function Navbar({ fixed }) {
                     href="#pablo"
                   >
                     <i className="text-slate-700 opacity-75"></i>
-                    <span className="text-lg truncate p-1 text-slate-700 hover:text-blue-800">
+                    <span className="text-lg truncate p-1 text-slate-700 hover:text-blue-800 hover:-translate-y-1 transition ease-in-out delay-150 ">
                       {" "}
                       ដើរលេងជាអ្វី?
                     </span>
@@ -94,7 +94,7 @@ function Navbar({ fixed }) {
                     href="#pablo"
                   >
                     <i className=" text-slate-700 opacity-75"></i>
-                    <span className="text-lg truncate p-1 text-slate-700 hover:text-blue-800">
+                    <span className="text-lg truncate p-1 text-slate-700 hover:text-blue-800 hover:-translate-y-1 transition ease-in-out delay-150 ">
                       {" "}
                       សេវាកម្ម
                     </span>
@@ -111,7 +111,7 @@ function Navbar({ fixed }) {
                     href="#pablo"
                   >
                     <i className="text-slate-700 opacity-75"></i>
-                    <span className="text-lg truncate p-1 text-slate-700 hover:text-blue-800">
+                    <span className="text-lg truncate p-1 text-slate-700 hover:text-blue-800 hover:-translate-y-1 transition ease-in-out delay-150 ">
                       {" "}
                       របៀបប្រើប្រាស់
                     </span>
@@ -128,7 +128,7 @@ function Navbar({ fixed }) {
                     href="#pablo"
                   >
                     <i className="text-slate-700 opacity-75"></i>
-                    <span className="text-lg truncate p-1 text-slate-700 hover:text-blue-800">
+                    <span className="text-lg truncate p-1 text-slate-700 hover:text-blue-800 hover:-translate-y-1 transition ease-in-out delay-150 ">
                       {" "}
                       ព័ត៌មាន
                     </span>
@@ -145,7 +145,7 @@ function Navbar({ fixed }) {
                     href="#pablo"
                   >
                     <i className="text-slate-700 opacity-75"></i>
-                    <span className="text-lg truncate p-1 text-slate-700 hover:text-blue-800">
+                    <span className="text-lg truncate p-1 text-slate-700 hover:text-blue-800 hover:-translate-y-1 transition ease-in-out delay-150 ">
                       {" "}
                       ទំនាក់ទំនង
                     </span>
