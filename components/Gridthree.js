@@ -26,7 +26,7 @@ const Gridthree = () => {
           {/*---  */}
           {/* ---- */}
           {/*---  */}
-          <div className="mt-6 flex flex-col items-center w-96 h-52 rounded-xl p-4 bg-gray-50 shadow-md">
+          <div className="mt-6 flex flex-col items-center w-96 h-52 rounded-xl p-4 bg-gray-50 ">
             <Image src={share}></Image>
             <h3 className="mt-2">ចែករំលែក</h3>
             <p className="text-center mt-3">
@@ -36,7 +36,7 @@ const Gridthree = () => {
           </div>
           {/* ---- */}
           {/*---  */}
-          <div className="mt-6 flex flex-col items-center w-96 h-52 rounded-xl p-4 bg-gray-50 shadow-md">
+          <div className="mt-6 flex flex-col items-center w-96 h-52 rounded-xl p-4 bg-gray-50 ">
             <Image src={coin}></Image>
             <h3 className="mt-2">សន្សំពិន្ទុ</h3>
             <p className="text-center mt-3">
@@ -45,7 +45,7 @@ const Gridthree = () => {
           </div>
           {/* ---- */}
           {/*---  */}
-          <div className="mt-6 flex flex-col items-center w-96 h-52 rounded-xl p-4 bg-gray-50 shadow-md">
+          <div className="mt-6 flex flex-col items-center w-96 h-52 rounded-xl p-4 bg-gray-50 ">
             <Image src={view}></Image>
             <h3 className="mt-2">ចូលមើល</h3>
             <p className="text-center mt-3">

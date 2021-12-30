@@ -14,7 +14,7 @@ import styles from "../styles/Home.module.css";
 export default function Home() {
   return (
     <Layout>
-      <Alert />
+      {/* <Alert /> */}
       <Introduction />
       <OurService />
       <HowItWork />

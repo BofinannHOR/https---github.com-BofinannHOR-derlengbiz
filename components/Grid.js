@@ -24,7 +24,7 @@ const Grid = () => {
         {/* /content */}
         <div className=" flex flex-col text-gray-700 items-center">
           {/*---  */}
-          <div className="mt-6 flex flex-col items-center w-96 h-52 rounded-xl p-4 bg-gray-50 shadow-md">
+          <div className="mt-6 flex flex-col items-center w-96 h-52 rounded-xl p-4 bg-gray-50">
             <Image src={register}></Image>
             <h3 className="mt-2">ចុះឈ្មោះ</h3>
             <p className="text-center mt-3">
@@ -34,7 +34,7 @@ const Grid = () => {
           </div>
           {/* ---- */}
           {/*---  */}
-          <div className=" mt-6 flex flex-col items-center w-96 h-52 rounded-xl p-4 bg-gray-50 shadow-md">
+          <div className=" mt-6 flex flex-col items-center w-96 h-52 rounded-xl p-4 bg-gray-50 ">
             <Image src={search}></Image>
             <h3 className="mt-2">ស្វែងរក</h3>
             <p className="text-center mt-3">
@@ -44,7 +44,7 @@ const Grid = () => {
           </div>
           {/* ---- */}
           {/*---  */}
-          <div className="mt-6 flex flex-col items-center w-96 h-52 rounded-xl p-4 bg-gray-50 shadow-md">
+          <div className="mt-6 flex flex-col items-center w-96 h-52 rounded-xl p-4 bg-gray-50 ">
             <Image src={random}></Image>
             <h3 className="mt-2">ប្រៀបធៀប</h3>
             <p className="text-center mt-3">

@@ -20,7 +20,7 @@ const GridTwo = () => {
         {/* /content */}
         <div className=" flex flex-col text-slate-700 items-center">
           {/*---  */}
-          <div className="mt-6 flex flex-col items-center w-96 h-52 rounded-xl p-4 bg-gray-50 shadow-md">
+          <div className="mt-6 flex flex-col items-center w-96 h-52 rounded-xl p-4 bg-gray-50 ">
             <Image src={booking}></Image>
             <h3 className="mt-2">កក់</h3>
             <p className="text-center mt-3">
@@ -30,7 +30,7 @@ const GridTwo = () => {
           </div>
           {/* ---- */}
           {/*---  */}
-          <div className="mt-6 flex flex-col items-center w-96 h-52 rounded-xl p-4 bg-gray-50 shadow-md">
+          <div className="mt-6 flex flex-col items-center w-96 h-52 rounded-xl p-4 bg-gray-50 ">
             <Image src={money}></Image>
             <h3 className="mt-2">បង់ប្រាក់</h3>
             <p className="text-center mt-3">
@@ -40,7 +40,7 @@ const GridTwo = () => {
           </div>
           {/* ---- */}
           {/*---  */}
-          <div className="mt-6 flex flex-col items-center w-96 h-52 rounded-xl p-4 bg-gray-50 shadow-md">
+          <div className="mt-6 flex flex-col items-center w-96 h-52 rounded-xl p-4 bg-gray-50 ">
             <Image src={feedback}></Image>
             <h3 className="mt-2">ផ្តល់មតិ</h3>
             <p className="text-center mt-3">

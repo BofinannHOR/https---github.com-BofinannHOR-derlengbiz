@@ -30,7 +30,7 @@ const Introduction = () => {
           </div>
           <div className="mb-10">
             <Link href="https://apps.apple.com/kh/app/derleng/id1527904771">
-              <a>
+              <a target="_blank">
                 <button className="coolBeans py-3 px-5 ">Download</button>
               </a>
             </Link>
@@ -45,7 +45,7 @@ const Introduction = () => {
           </div>
           <div className="mb-10">
             <Link href="https://play.google.com/store/apps/details?id=biz.derleng.mobileapp">
-              <a>
+              <a target="_blank">
                 <button className="coolBeans py-3 px-5 ">Download</button>
               </a>
             </Link>

@@ -110,7 +110,7 @@ const Footer = () => {
         </div>
       </div>
       <div class=" py-10 text-center md:text-left">
-        <div class="grid grid-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="grid grid-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           <div class="tracking-wide">
             <h2>បេសកកម្ម</h2>
             <small>
@@ -126,45 +126,27 @@ const Footer = () => {
             </small>
           </div>
           <div class="">
-            <h2 class=" mb-4 flex justify-start md:justify-center">
-              អំពីដើរលេង
-            </h2>
-            <p class=" mb-4 flex justify-start md:justify-center">អំពីយើង</p>{" "}
-            <p class=" mb-4 flex justify-start md:justify-center">
-              ថ្មីៗពីដើរលេង
-            </p>{" "}
+            <h2 class=" mb-4 flex justify-start">អំពីដើរលេង</h2>
+            <p class=" mb-4 flex justify-start ">អំពីយើង</p>{" "}
+            <p class=" mb-4 flex justify-start ">ថ្មីៗពីដើរលេង</p>{" "}
           </div>
           <div class="">
-            <h2 class=" mb-4 flex justify-start md:justify-center">
-              ដៃគូសហការ
-            </h2>
-            <p class=" mb-4 flex justify-start md:justify-center">
-              អ្នកផ្គត់ផ្គង់របស់យើង
-            </p>{" "}
-            <p class=" mb-4 flex justify-start md:justify-center">
-              អ្នកសរសេរអត្ថបទ
-            </p>{" "}
-            <p class=" mb-4 flex justify-start md:justify-center">
-              គោលការណ៍ណែនាំ
-            </p>{" "}
-            <p class=" mb-4 flex justify-start md:justify-center">
-              ចូលទៅប្រព័ន្ធអ្នកផ្គត់ផ្គង់
-            </p>{" "}
-            <p class=" mb-4 flex justify-start md:justify-center">
+            <h2 class=" mb-4 flex justify-start ">ដៃគូសហការ</h2>
+            <p class=" mb-4 flex justify-start ">អ្នកផ្គត់ផ្គង់របស់យើង</p>{" "}
+            <p class=" mb-4 flex justify-start ">អ្នកសរសេរអត្ថបទ</p>{" "}
+            <p class=" mb-4 flex justify-start ">គោលការណ៍ណែនាំ</p>{" "}
+            <p class=" mb-4 flex justify-start ">ចូលទៅប្រព័ន្ធអ្នកផ្គត់ផ្គង់</p>{" "}
+            <p class=" mb-4 flex justify-start ">
               ចូលទៅប្រព័ន្ធអ្នកសរសេរអត្ថបទ
             </p>{" "}
           </div>
         </div>
       </div>
       <div class="text-center bg-white border-t border-gray-300 flex flex-row justify-between">
-        <span className="mt-3">© 2020 DERLENG.BIZ All rights reserved.</span>
+        <small className="mt-3">© 2020 DERLENG.BIZ All rights reserved.</small>
         <span className="mt-3">
-          <a class="text-gray-60" href="https://mdbootstrap.com/">
-            គោលការណ៍ និងលក្ខន្ដិក
-          </a>
-          <a class="text-slate-700" href="https://mdbootstrap.com/">
-            គោលការណ៍​នៃភាព​ឯកជន
-          </a>
+          <small class="text-gray-60">គោលការណ៍ និងលក្ខន្ដិក</small>
+          <small class="text-slate-700">គោលការណ៍​នៃភាព​ឯកជន</small>
         </span>
       </div>
     </div>

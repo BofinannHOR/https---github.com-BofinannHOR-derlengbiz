@@ -46,18 +46,30 @@ function ServiceSlide() {
         {ServiceData.map((item) => (
           <div className=" server-image-section">
             {/* image */}
-            <div className=" flex flex-col mt-10 items-center">
+            <div className=" flex flex-col mt-10 items-center ">
               <img
                 src={item.image}
                 alt=""
-                className="object-cover h-80 rounded-xl"
+                className="object-cover h-80 rounded-xl "
               />
               {/* content */}
               <div className="p-6 flex flex-col rounded-xl lg:w-96 w-60 lg:h-44 h-48 absolute z-50 bg-gray-50 mt-60 lg:mt-64 items-start shadow-md">
                 <h3 className="mb-3">{item.title}</h3>
                 <p>{item.description}</p>
-                <button className="mt-3 text-blue-600 hover:border-b-2 border-blue-600">
-                  <h3 className="text-base">អាន​បន្ថែម</h3>
+                <button className="mt-3 text-slate-600 border-slate-600 flex flex-row">
+                  <h3 className="text-base mr-2">អាន​បន្ថែម</h3>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-5 w-5 "
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
                 </button>
               </div>
             </div>
