@@ -7,7 +7,7 @@ function Navbar({ fixed }) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
     <nav className="py-2 relative flex flex-wrap items-center justify-between px-2 bg-white">
-      <div className="container px-4 mx-auto flex flex-col lg:flex-row lg:items-center justify-between">
+      <div className="container px-2 flex flex-col lg:flex-row lg:items-center justify-between">
         <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
           <div className="md:mx-20">
             <nav className="flex flex-row">
