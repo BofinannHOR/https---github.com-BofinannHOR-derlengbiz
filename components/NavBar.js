@@ -8,7 +8,7 @@ function Navbar({ fixed }) {
   return (
     <nav
       id="navbar"
-      className="py-2 relative flex flex-wrap items-center justify-between px-2 bg-white"
+      className="navbar py-2 relative flex flex-wrap items-center justify-between px-2 bg-white"
     >
       <div className="container px-2 flex flex-col lg:flex-row lg:items-center justify-between">
         <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">

@@ -127,29 +127,47 @@ const Footer = () => {
             </small>
           </div>
           <div class="">
-            <h2 class=" mb-4 flex justify-start">អំពីដើរលេង</h2>
+            <h2 class=" mb-4 flex justify-start ">អំពីដើរលេង</h2>
             <Link href="/about/">
-              <a class=" mb-4 flex justify-start ">អំពីយើង</a>
+              <a class=" mb-4 flex justify-start hover:text-blue-800 hover:-translate-y-1 transition ease-in-out delay-150">
+                អំពីយើង
+              </a>
             </Link>
-            <a href="" target="_blank" class=" mb-4 flex justify-start ">
-              ថ្មីៗពីដើរលេង
-            </a>{" "}
+            <Link href="/about/">
+              <a class=" mb-4 flex justify-start hover:text-blue-800 hover:-translate-y-1 transition ease-in-out delay-150">
+                ថ្មីៗពីដើរលេង
+              </a>
+            </Link>
           </div>
           <div class="">
             <h2 class=" mb-4 flex justify-start ">ដៃគូសហការ</h2>
-            <a href="" target="_blank" class=" mb-4 flex justify-start ">
-              អ្នកផ្គត់ផ្គង់របស់យើង
-            </a>{" "}
-            <a href="" target="_blank" class=" mb-4 flex justify-start ">
-              អ្នកសរសេរអត្ថបទ
-            </a>{" "}
-            <a href="" target="_blank" class=" mb-4 flex justify-start ">
-              គោលការណ៍ណែនាំ
-            </a>{" "}
-            <a href="" target="_blank" class=" mb-4 flex justify-start ">
+            <Link href="/oursupplier/">
+              <a class=" mb-4 flex justify-start hover:text-blue-800 hover:-translate-y-1 transition ease-in-out delay-150">
+                អ្នកផ្គត់ផ្គង់របស់យើង
+              </a>
+            </Link>
+            <Link href="/writer/">
+              <a class=" mb-4 flex justify-start hover:text-blue-800 hover:-translate-y-1 transition ease-in-out delay-150 ">
+                ក្នុងសរសេរអត្ថបទ
+              </a>
+            </Link>
+            <Link href="/about/">
+              <a class=" mb-4 flex justify-start hover:text-blue-800 hover:-translate-y-1 transition ease-in-out delay-150">
+                គោលការណ៍ណែនាំ
+              </a>
+            </Link>
+            <a
+              href={process.env.NEXT_PUBLIC_LOGIN_URL}
+              target="_blank"
+              class=" mb-4 flex justify-start hover:text-blue-800 hover:-translate-y-1 transition ease-in-out delay-150"
+            >
               ចូលទៅប្រព័ន្ធអ្នកផ្គត់ផ្គង់
             </a>{" "}
-            <a href="" target="_blank" class=" mb-4 flex justify-start ">
+            <a
+              href={process.env.NEXT_PUBLIC_SITE_LOGIN_URL}
+              target="_blank"
+              class=" mb-4 flex justify-start  hover:text-blue-800 hover:-translate-y-1 transition ease-in-out delay-150"
+            >
               ចូលទៅប្រព័ន្ធអ្នកសរសេរអត្ថបទ
             </a>{" "}
           </div>
@@ -158,8 +176,22 @@ const Footer = () => {
       <div class="text-center bg-white border-t border-gray-300 flex flex-row justify-between">
         <small className="mt-3">© 2020 DERLENG.BIZ All rights reserved.</small>
         <span className="mt-3">
-          <small class="text-gray-60">គោលការណ៍ និងលក្ខន្ដិក</small>
-          <small class="text-slate-700">គោលការណ៍​នៃភាព​ឯកជន</small>
+          <Link href="/term-condition/">
+            <a>
+              {" "}
+              <span class="text-gray-60 mx-4 hover:text-blue-800 hover:-translate-y-1 transition ease-in-out delay-150">
+                គោលការណ៍ និងលក្ខន្ដិក
+              </span>
+            </a>
+          </Link>
+          <span>-</span>
+          <Link href="/privacy-policy/">
+            <a>
+              <span class="text-slate-700 mx-4 hover:text-blue-800 hover:-translate-y-1 transition ease-in-out delay-150">
+                គោលការណ៍​នៃភាព​ឯកជន
+              </span>
+            </a>
+          </Link>
         </span>
       </div>
     </div>

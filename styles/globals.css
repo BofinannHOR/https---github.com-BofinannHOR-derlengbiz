@@ -33,9 +33,11 @@ li,
 small,
 button,
 label ::placeholder,
-form {
+form,
+strong {
   font-family: "Siemreap", sans-serif;
 }
+
 .section-one {
   position: relative;
   min-height: 800px;
@@ -78,6 +80,15 @@ form {
 .about {
   min-height: 1000px;
 }
+.oursupplier {
+  min-height: 1000px;
+}
+.term {
+  min-height: 3000px;
+}
+.PrivacyPolicy {
+  min-height: 2800px;
+}
 @media only screen and (max-width: 992px) {
   h1 {
     font-size: 1.5rem;
@@ -90,6 +101,10 @@ form {
   h3 {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+  p,
+  li {
+    font-size: 11pt;
   }
 }
 .coolBeans {
