@@ -127,18 +127,30 @@ const Footer = () => {
           </div>
           <div class="">
             <h2 class=" mb-4 flex justify-start">អំពីដើរលេង</h2>
-            <p class=" mb-4 flex justify-start ">អំពីយើង</p>{" "}
-            <p class=" mb-4 flex justify-start ">ថ្មីៗពីដើរលេង</p>{" "}
+            <a href="" target="_blank" class=" mb-4 flex justify-start ">
+              អំពីយើង
+            </a>{" "}
+            <a href="" target="_blank" class=" mb-4 flex justify-start ">
+              ថ្មីៗពីដើរលេង
+            </a>{" "}
           </div>
           <div class="">
             <h2 class=" mb-4 flex justify-start ">ដៃគូសហការ</h2>
-            <p class=" mb-4 flex justify-start ">អ្នកផ្គត់ផ្គង់របស់យើង</p>{" "}
-            <p class=" mb-4 flex justify-start ">អ្នកសរសេរអត្ថបទ</p>{" "}
-            <p class=" mb-4 flex justify-start ">គោលការណ៍ណែនាំ</p>{" "}
-            <p class=" mb-4 flex justify-start ">ចូលទៅប្រព័ន្ធអ្នកផ្គត់ផ្គង់</p>{" "}
-            <p class=" mb-4 flex justify-start ">
+            <a href="" target="_blank" class=" mb-4 flex justify-start ">
+              អ្នកផ្គត់ផ្គង់របស់យើង
+            </a>{" "}
+            <a href="" target="_blank" class=" mb-4 flex justify-start ">
+              អ្នកសរសេរអត្ថបទ
+            </a>{" "}
+            <a href="" target="_blank" class=" mb-4 flex justify-start ">
+              គោលការណ៍ណែនាំ
+            </a>{" "}
+            <a href="" target="_blank" class=" mb-4 flex justify-start ">
+              ចូលទៅប្រព័ន្ធអ្នកផ្គត់ផ្គង់
+            </a>{" "}
+            <a href="" target="_blank" class=" mb-4 flex justify-start ">
               ចូលទៅប្រព័ន្ធអ្នកសរសេរអត្ថបទ
-            </p>{" "}
+            </a>{" "}
           </div>
         </div>
       </div>
