@@ -69,10 +69,7 @@ function Navbar({ fixed }) {
             <a href="#sectionone">
               {" "}
               <li className="nav-item rounded-xl">
-                <a
-                  className="px-3 py-2 flex items-center uppercase  leading-snug text-slate-700 hover:opacity-75"
-                  href="#pablo"
-                >
+                <a className="px-3 py-2 flex items-center uppercase  leading-snug text-slate-700 hover:opacity-75">
                   <i className="text-slate-700 opacity-75"></i>
                   <span className="text-lg truncate p-1 text-slate-700 hover:text-blue-800 hover:-translate-y-1 transition ease-in-out delay-150 ">
                     {" "}
