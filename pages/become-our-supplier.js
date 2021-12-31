@@ -2,12 +2,20 @@ import React from "react";
 import Layout from "../components/Layout";
 import supplier1 from "../public/supplier1.svg";
 import Image from "next/image";
+import Head from "next/head";
 
 const Oursupplier = () => {
   return (
     <Layout>
       {" "}
       <div className="oursupplier flex flex-col text-slate-700 lg:mx-4 lg:p-10 mt-10 leading-relaxed ">
+        <Head>
+          <title>អ្នកផ្គត់ផ្គង់របស់យើង</title>
+          <meta
+            name="viewport"
+            content="initial-scale=1.0, width=device-width"
+          />
+        </Head>
         <div className="lg:border-none border-b-2 flex flex-col lg:flex-row lg:justify-between"></div>
         <div div className="w-scren h-auto m-auto">
           <Image src={supplier1} width={700} height={700}></Image>

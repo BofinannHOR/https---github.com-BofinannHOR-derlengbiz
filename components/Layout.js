@@ -7,7 +7,7 @@ const Layout = ({ children }) => {
   return (
     <div className="App">
       <Head>
-        <title>Next-DerlengBiz</title>
+        <title>ដើរលេង - ទំព័រដើម</title>
       </Head>
       <Navbar />
       <div class="relative">{children}</div>

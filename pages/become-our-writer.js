@@ -2,11 +2,19 @@ import React from "react";
 import Layout from "../components/Layout";
 import writer from "../public/writer.svg";
 import Image from "next/image";
+import Head from "next/head";
 
 const Writer = () => {
   return (
     <Layout>
       <div className="about flex flex-col text-slate-700 lg:mx-4 lg:p-10 leading-relaxed tracking-wider">
+        <Head>
+          <title>About</title>
+          <meta
+            name="viewport"
+            content="initial-scale=1.0, width=device-width"
+          />
+        </Head>
         <div className="lg:border-none border-b-2 flex flex-col lg:flex-row lg:justify-between">
           <div div className="w-scren h-auto m-auto">
             <Image src={writer} width={700} height={700}></Image>

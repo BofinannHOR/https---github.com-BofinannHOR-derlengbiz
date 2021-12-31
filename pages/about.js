@@ -4,11 +4,19 @@ import Layout from "../components/Layout";
 import aboutus from "../public/aboutus.svg";
 import vision from "../public/vision.svg";
 import mission from "../public/mission.svg";
+import Head from "next/head";
 
 const About = () => {
   return (
     <Layout>
       <div className="about flex flex-col text-slate-700 mx-4 p-10 mt-10 leading-relaxed ">
+        <Head>
+          <title>About</title>
+          <meta
+            name="viewport"
+            content="initial-scale=1.0, width=device-width"
+          />
+        </Head>
         <div className="lg:border-none border-b-2 flex flex-col lg:flex-row lg:justify-between">
           <div div className="w-scren h-auto lg:w-2/4">
             <Image src={aboutus} width={1000} height={700}></Image>

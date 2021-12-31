@@ -54,7 +54,7 @@ function Navbar({ fixed }) {
         >
           <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
             {" "}
-            <a href="#navbar">
+            <a href="/">
               {" "}
               <li className="nav-item hover:scale-105">
                 <a className="px-3 py-2 flex items-center text-xs uppercase  leading-snug text-slate-700 hover:opacity-75">
