@@ -6,7 +6,10 @@ import Link from "next/link";
 
 const Introduction = () => {
   return (
-    <div class="p-3 m-4 text-slate-700 lg:mx-38 mx-10 lg:p-16 justify-between">
+    <div
+      id="sectionone"
+      class="p-3 m-4 text-slate-700 lg:mx-38 mx-10 lg:p-16 justify-between"
+    >
       <div className=" mb-5">
         <h1>ដើរលេងជាអ្វី?</h1>
       </div>

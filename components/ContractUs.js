@@ -2,7 +2,10 @@ import React from "react";
 
 const ContractUs = () => {
   return (
-    <div className=" section-six text-slate-700 lg:mx-38 mx-10 lg:p-20">
+    <div
+      id="sectionfive"
+      className="section-six text-slate-700 lg:mx-38 mx-10 lg:p-20"
+    >
       <div className="items-center flex flex-col">
         <h1 className="my-10">ទំនាក់ទំនងមកពួកយើង</h1>
       </div>

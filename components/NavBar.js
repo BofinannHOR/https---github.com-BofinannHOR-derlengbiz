@@ -6,7 +6,10 @@ import logo2 from "../public/derlenglogo2.png";
 function Navbar({ fixed }) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
-    <nav className="py-2 relative flex flex-wrap items-center justify-between px-2 bg-white">
+    <nav
+      id="navbar"
+      className="py-2 relative flex flex-wrap items-center justify-between px-2 bg-white"
+    >
       <div className="container px-2 flex flex-col lg:flex-row lg:items-center justify-between">
         <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
           <div className="md:mx-20">
@@ -51,14 +54,11 @@ function Navbar({ fixed }) {
         >
           <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
             {" "}
-            <Link href="/404/">
+            <Link href="#navbar">
               <a>
                 {" "}
                 <li className="nav-item hover:scale-105">
-                  <a
-                    className="px-3 py-2 flex items-center text-xs uppercase  leading-snug text-slate-700 hover:opacity-75"
-                    href="#pablo"
-                  >
+                  <a className="px-3 py-2 flex items-center text-xs uppercase  leading-snug text-slate-700 hover:opacity-75">
                     <i className=" text-slate-700 opacity-75"></i>
                     <span className="text-lg truncate p-1 text-slate-700 hover:text-blue-800 hover:-translate-y-1 transition ease-in-out delay-150 ">
                       {" "}
@@ -68,7 +68,7 @@ function Navbar({ fixed }) {
                 </li>
               </a>
             </Link>
-            <Link href="/404/">
+            <Link href="#sectionone">
               <a>
                 {" "}
                 <li className="nav-item rounded-xl">
@@ -85,14 +85,11 @@ function Navbar({ fixed }) {
                 </li>
               </a>
             </Link>
-            <Link href="/404/">
+            <Link href="#sectiontwo" className="scroll-smooth">
               <a>
                 {" "}
                 <li className="nav-item rounded-xl">
-                  <a
-                    className="px-3 py-2 flex items-center text-xs uppercase  leading-snug text-slate-700 hover:opacity-75"
-                    href="#pablo"
-                  >
+                  <a className="px-3 py-2 flex items-center text-xs uppercase  leading-snug text-slate-700 hover:opacity-75">
                     <i className=" text-slate-700 opacity-75"></i>
                     <span className="text-lg truncate p-1 text-slate-700 hover:text-blue-800 hover:-translate-y-1 transition ease-in-out delay-150 ">
                       {" "}
@@ -102,14 +99,11 @@ function Navbar({ fixed }) {
                 </li>
               </a>
             </Link>
-            <Link href="/404/">
+            <Link href="#sectionthree">
               <a>
                 {" "}
                 <li className="nav-item rounded-xl">
-                  <a
-                    className="px-3 py-2 flex items-center text-xs uppercase  leading-snug text-slate-700 hover:opacity-75"
-                    href="#pablo"
-                  >
+                  <a className="px-3 py-2 flex items-center text-xs uppercase  leading-snug text-slate-700 hover:opacity-75">
                     <i className="text-slate-700 opacity-75"></i>
                     <span className="text-lg truncate p-1 text-slate-700 hover:text-blue-800 hover:-translate-y-1 transition ease-in-out delay-150 ">
                       {" "}
@@ -119,7 +113,7 @@ function Navbar({ fixed }) {
                 </li>
               </a>
             </Link>{" "}
-            <Link href="/404/">
+            <Link href="#sectionfour">
               <a>
                 {" "}
                 <li className="nav-item rounded-xl">
@@ -136,14 +130,11 @@ function Navbar({ fixed }) {
                 </li>
               </a>
             </Link>
-            <Link href="/404/">
+            <Link href="#sectionfive">
               <a>
                 {" "}
                 <li className="nav-item rounded-xl">
-                  <a
-                    className="px-3 py-2 flex items-center text-xs uppercase  leading-snug text-slate-700 hover:opacity-75"
-                    href="#pablo"
-                  >
+                  <a className="px-3 py-2 flex items-center text-xs uppercase  leading-snug text-slate-700 hover:opacity-75">
                     <i className="text-slate-700 opacity-75"></i>
                     <span className="text-lg truncate p-1 text-slate-700 hover:text-blue-800 hover:-translate-y-1 transition ease-in-out delay-150 ">
                       {" "}

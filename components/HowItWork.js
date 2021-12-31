@@ -5,7 +5,10 @@ import GridTwo from "./GridTwo";
 
 const HowItWork = () => {
   return (
-    <div className="section-three mx-3 p-0 text-slate-700 items-center">
+    <div
+      id="sectionthree"
+      className="section-three mx-3 p-0 text-slate-700 items-center"
+    >
       <div className="items-center flex flex-col">
         {" "}
         <h1 className="mb-3 m-auto">របៀបប្រើប្រាស់</h1>{" "}

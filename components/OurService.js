@@ -4,7 +4,7 @@ import ServiceSlide from "./ServiceSlide";
 
 const OurService = () => {
   return (
-    <div className="section-two text-slate-700  p-3 m-4">
+    <div id="sectiontwo" className="section-two text-slate-700  p-3 m-4">
       <div className="items-center flex flex-col">
         <h1 className="mb-3">ផ្តល់ជម្រើសដ៏សំបូរបែបសម្រាប់អ្នក</h1>{" "}
         <p className="text-center">

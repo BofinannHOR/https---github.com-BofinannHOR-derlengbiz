@@ -4,6 +4,7 @@
 
 .App {
   position: relative;
+  scroll-behavior: smooth;
 }
 h1,
 h2,
