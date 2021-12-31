@@ -54,96 +54,84 @@ function Navbar({ fixed }) {
         >
           <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
             {" "}
-            <Link href="#navbar">
-              <a>
-                {" "}
-                <li className="nav-item hover:scale-105">
-                  <a className="px-3 py-2 flex items-center text-xs uppercase  leading-snug text-slate-700 hover:opacity-75">
-                    <i className=" text-slate-700 opacity-75"></i>
-                    <span className="text-lg truncate p-1 text-slate-700 hover:text-blue-800 hover:-translate-y-1 transition ease-in-out delay-150 ">
-                      {" "}
-                      ទំព័រដើម
-                    </span>
-                  </a>
-                </li>
-              </a>
-            </Link>
-            <Link href="#sectionone">
-              <a>
-                {" "}
-                <li className="nav-item rounded-xl">
-                  <a
-                    className="px-3 py-2 flex items-center uppercase  leading-snug text-slate-700 hover:opacity-75"
-                    href="#pablo"
-                  >
-                    <i className="text-slate-700 opacity-75"></i>
-                    <span className="text-lg truncate p-1 text-slate-700 hover:text-blue-800 hover:-translate-y-1 transition ease-in-out delay-150 ">
-                      {" "}
-                      ដើរលេងជាអ្វី?
-                    </span>
-                  </a>
-                </li>
-              </a>
-            </Link>
-            <Link href="#sectiontwo" className="scroll-smooth">
-              <a>
-                {" "}
-                <li className="nav-item rounded-xl">
-                  <a className="px-3 py-2 flex items-center text-xs uppercase  leading-snug text-slate-700 hover:opacity-75">
-                    <i className=" text-slate-700 opacity-75"></i>
-                    <span className="text-lg truncate p-1 text-slate-700 hover:text-blue-800 hover:-translate-y-1 transition ease-in-out delay-150 ">
-                      {" "}
-                      សេវាកម្ម
-                    </span>
-                  </a>
-                </li>
-              </a>
-            </Link>
-            <Link href="#sectionthree">
-              <a>
-                {" "}
-                <li className="nav-item rounded-xl">
-                  <a className="px-3 py-2 flex items-center text-xs uppercase  leading-snug text-slate-700 hover:opacity-75">
-                    <i className="text-slate-700 opacity-75"></i>
-                    <span className="text-lg truncate p-1 text-slate-700 hover:text-blue-800 hover:-translate-y-1 transition ease-in-out delay-150 ">
-                      {" "}
-                      របៀបប្រើប្រាស់
-                    </span>
-                  </a>
-                </li>
-              </a>
-            </Link>{" "}
-            <Link href="#sectionfour">
-              <a>
-                {" "}
-                <li className="nav-item rounded-xl">
-                  <a
-                    className="px-3 py-2 flex items-center text-xs uppercase  leading-snug text-slate-700 hover:opacity-75"
-                    href="#pablo"
-                  >
-                    <i className="text-slate-700 opacity-75"></i>
-                    <span className="text-lg truncate p-1 text-slate-700 hover:text-blue-800 hover:-translate-y-1 transition ease-in-out delay-150 ">
-                      {" "}
-                      ព័ត៌មាន
-                    </span>
-                  </a>
-                </li>
-              </a>
-            </Link>
-            <Link href="#sectionfive">
-              <a>
-                {" "}
-                <li className="nav-item rounded-xl">
-                  <a className="px-3 py-2 flex items-center text-xs uppercase  leading-snug text-slate-700 hover:opacity-75">
-                    <i className="text-slate-700 opacity-75"></i>
-                    <span className="text-lg truncate p-1 text-slate-700 hover:text-blue-800 hover:-translate-y-1 transition ease-in-out delay-150 ">
-                      {" "}
-                      ទំនាក់ទំនង
-                    </span>
-                  </a>
-                </li>
-              </a>
-            </Link>
+            <a href="#navbar">
+              {" "}
+              <li className="nav-item hover:scale-105">
+                <a className="px-3 py-2 flex items-center text-xs uppercase  leading-snug text-slate-700 hover:opacity-75">
+                  <i className=" text-slate-700 opacity-75"></i>
+                  <span className="text-lg truncate p-1 text-slate-700 hover:text-blue-800 hover:-translate-y-1 transition ease-in-out delay-150 ">
+                    {" "}
+                    ទំព័រដើម
+                  </span>
+                </a>
+              </li>
+            </a>
+            <a href="#sectionone">
+              {" "}
+              <li className="nav-item rounded-xl">
+                <a
+                  className="px-3 py-2 flex items-center uppercase  leading-snug text-slate-700 hover:opacity-75"
+                  href="#pablo"
+                >
+                  <i className="text-slate-700 opacity-75"></i>
+                  <span className="text-lg truncate p-1 text-slate-700 hover:text-blue-800 hover:-translate-y-1 transition ease-in-out delay-150 ">
+                    {" "}
+                    ដើរលេងជាអ្វី?
+                  </span>
+                </a>
+              </li>
+            </a>
+            <a href="#sectiontwo" className="scroll-smooth">
+              {" "}
+              <li className="nav-item rounded-xl">
+                <a className="px-3 py-2 flex items-center text-xs uppercase  leading-snug text-slate-700 hover:opacity-75">
+                  <i className=" text-slate-700 opacity-75"></i>
+                  <span className="text-lg truncate p-1 text-slate-700 hover:text-blue-800 hover:-translate-y-1 transition ease-in-out delay-150 ">
+                    {" "}
+                    សេវាកម្ម
+                  </span>
+                </a>
+              </li>
+            </a>
+            <a href="#sectionthree">
+              {" "}
+              <li className="nav-item rounded-xl">
+                <a className="px-3 py-2 flex items-center text-xs uppercase  leading-snug text-slate-700 hover:opacity-75">
+                  <i className="text-slate-700 opacity-75"></i>
+                  <span className="text-lg truncate p-1 text-slate-700 hover:text-blue-800 hover:-translate-y-1 transition ease-in-out delay-150 ">
+                    {" "}
+                    របៀបប្រើប្រាស់
+                  </span>
+                </a>
+              </li>
+            </a>
+            <a href="#sectionfour">
+              {" "}
+              <li className="nav-item rounded-xl">
+                <a
+                  className="px-3 py-2 flex items-center text-xs uppercase  leading-snug text-slate-700 hover:opacity-75"
+                  href="#pablo"
+                >
+                  <i className="text-slate-700 opacity-75"></i>
+                  <span className="text-lg truncate p-1 text-slate-700 hover:text-blue-800 hover:-translate-y-1 transition ease-in-out delay-150 ">
+                    {" "}
+                    ព័ត៌មាន
+                  </span>
+                </a>
+              </li>
+            </a>
+            <a href="#sectionfive">
+              {" "}
+              <li className="nav-item rounded-xl">
+                <a className="px-3 py-2 flex items-center text-xs uppercase  leading-snug text-slate-700 hover:opacity-75">
+                  <i className="text-slate-700 opacity-75"></i>
+                  <span className="text-lg truncate p-1 text-slate-700 hover:text-blue-800 hover:-translate-y-1 transition ease-in-out delay-150 ">
+                    {" "}
+                    ទំនាក់ទំនង
+                  </span>
+                </a>
+              </li>
+            </a>
           </ul>
         </div>
       </div>
