@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -127,9 +128,9 @@ const Footer = () => {
           </div>
           <div class="">
             <h2 class=" mb-4 flex justify-start">អំពីដើរលេង</h2>
-            <a href="" target="_blank" class=" mb-4 flex justify-start ">
-              អំពីយើង
-            </a>{" "}
+            <Link href="/about/">
+              <a class=" mb-4 flex justify-start ">អំពីយើង</a>
+            </Link>
             <a href="" target="_blank" class=" mb-4 flex justify-start ">
               ថ្មីៗពីដើរលេង
             </a>{" "}
