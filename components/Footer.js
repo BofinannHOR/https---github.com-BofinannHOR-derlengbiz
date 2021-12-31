@@ -141,12 +141,12 @@ const Footer = () => {
           </div>
           <div class="">
             <h2 class=" mb-4 flex justify-start ">ដៃគូសហការ</h2>
-            <Link href="/oursupplier/">
+            <Link href="/become-our-supplier/">
               <a class=" mb-4 flex justify-start hover:text-blue-800 hover:-translate-y-1 transition ease-in-out delay-150">
                 អ្នកផ្គត់ផ្គង់របស់យើង
               </a>
             </Link>
-            <Link href="/writer/">
+            <Link href="/become-our-writer/">
               <a class=" mb-4 flex justify-start hover:text-blue-800 hover:-translate-y-1 transition ease-in-out delay-150 ">
                 ក្នុងសរសេរអត្ថបទ
               </a>

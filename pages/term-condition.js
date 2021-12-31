@@ -1,9 +1,23 @@
 import React from "react";
+import Link from "next/link";
 
 const TermCondition = () => {
   return (
     <div className="term lg:mx-36 flex flex-col text-slate-700 lg:p-10 mt-10 p-5 leading-relaxed ">
-      <h1 class="text-center mb-3">ល័ក្ខខ័ណ្ឌ​ប្រើប្រាស់</h1>
+      <Link href="/">
+        <a className="">
+          {" "}
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-12 w-12 rounded-full float-left p-1 text-pink-500 inline transition ease-in-out delay-150 bg-slate-100 hover:-translate-y-1 hover:scale-110 hover:bg-slate-100 duration-300"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+          </svg>
+        </a>
+      </Link>
+      <h1 class="mb-3 text-center">ល័ក្ខខ័ណ្ឌ​ប្រើប្រាស់</h1>
       <h3 class="text-center">សម្រាប់អ្នកប្រើប្រាស់​និងសមាជិក</h3>
 
       <p className="my-3">ធ្វើបច្ចុប្បន្នភាពចុងក្រោយ៖ ២៨/០៧/២០២០</p>
