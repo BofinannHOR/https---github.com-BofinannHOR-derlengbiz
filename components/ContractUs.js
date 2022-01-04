@@ -18,7 +18,7 @@ const ContractUs = () => {
                 name="twitter"
                 id="twitter"
                 placeholder="នាមត្រកូល និង ឈ្មោះ"
-                className="border-b-2 border-slate-500 flex-1 py-2 placeholder-slate-500 outline-none focus:border-green-400"
+                className="border-b-2 border-slate-500 flex-1 py-2 placeholder-slate-500 outline-none focus:border-pink-400"
               />
             </div>
             <div className="flex items-center mb-10">
@@ -27,7 +27,7 @@ const ContractUs = () => {
                 name="twitter"
                 id="twitter"
                 placeholder="អ៊ីមែល"
-                className="border-b-2 border-slate-500 flex-1 py-2 placeholder-slate-500 outline-none focus:border-green-400"
+                className="border-b-2 border-slate-500 flex-1 py-2 placeholder-slate-500 outline-none focus:border-pink-400"
               />
             </div>
             <div className="flex mb-10 flex-col">
@@ -39,11 +39,11 @@ const ContractUs = () => {
                 name="twitter"
                 id="twitter"
                 placeholder=""
-                className="border-b-2 border-slate-500 flex-1 py-2 placeholder-slate-500 outline-none focus:border-green-400"
+                className="border-b-2 border-slate-500 flex-1 py-2 placeholder-slate-500 outline-none focus:border-pink-400"
               />
             </div>
             <div className="text-left">
-              <button className="py-3 px-8 bg-orange-300 text-white rounded hover:bg-orange-600">
+              <button className="py-3 px-8 bg-pink-500 text-white rounded hover:bg-pink-600">
                 ផ្ញើ​សារ
               </button>
             </div>

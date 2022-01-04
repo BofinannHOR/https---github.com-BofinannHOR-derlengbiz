@@ -59,7 +59,7 @@ function Navbar({ fixed }) {
               <li className="nav-item hover:scale-105">
                 <a className="px-3 py-2 flex items-center text-xs uppercase  leading-snug text-slate-700 hover:opacity-75">
                   <i className=" text-slate-700 opacity-75"></i>
-                  <span className="text-lg truncate p-1 text-slate-700 hover:text-blue-800 hover:-translate-y-1 transition ease-in-out delay-150 ">
+                  <span className="text-lg truncate p-1 text-slate-700 hover:text-pink-800 hover:-translate-y-1 transition ease-in-out delay-150 ">
                     {" "}
                     ទំព័រដើម
                   </span>
@@ -71,7 +71,7 @@ function Navbar({ fixed }) {
               <li className="nav-item rounded-xl">
                 <a className="px-3 py-2 flex items-center uppercase  leading-snug text-slate-700 hover:opacity-75">
                   <i className="text-slate-700 opacity-75"></i>
-                  <span className="text-lg truncate p-1 text-slate-700 hover:text-blue-800 hover:-translate-y-1 transition ease-in-out delay-150 ">
+                  <span className="text-lg truncate p-1 text-slate-700 hover:text-pink-800 hover:-translate-y-1 transition ease-in-out delay-150 ">
                     {" "}
                     ដើរលេងជាអ្វី?
                   </span>
@@ -83,7 +83,7 @@ function Navbar({ fixed }) {
               <li className="nav-item rounded-xl">
                 <a className="px-3 py-2 flex items-center text-xs uppercase  leading-snug text-slate-700 hover:opacity-75">
                   <i className=" text-slate-700 opacity-75"></i>
-                  <span className="text-lg truncate p-1 text-slate-700 hover:text-blue-800 hover:-translate-y-1 transition ease-in-out delay-150 ">
+                  <span className="text-lg truncate p-1 text-slate-700 hover:text-pink-800 hover:-translate-y-1 transition ease-in-out delay-150 ">
                     {" "}
                     សេវាកម្ម
                   </span>
@@ -95,7 +95,7 @@ function Navbar({ fixed }) {
               <li className="nav-item rounded-xl">
                 <a className="px-3 py-2 flex items-center text-xs uppercase  leading-snug text-slate-700 hover:opacity-75">
                   <i className="text-slate-700 opacity-75"></i>
-                  <span className="text-lg truncate p-1 text-slate-700 hover:text-blue-800 hover:-translate-y-1 transition ease-in-out delay-150 ">
+                  <span className="text-lg truncate p-1 text-slate-700 hover:text-pink-800 hover:-translate-y-1 transition ease-in-out delay-150 ">
                     {" "}
                     របៀបប្រើប្រាស់
                   </span>
@@ -110,7 +110,7 @@ function Navbar({ fixed }) {
                   href="#pablo"
                 >
                   <i className="text-slate-700 opacity-75"></i>
-                  <span className="text-lg truncate p-1 text-slate-700 hover:text-blue-800 hover:-translate-y-1 transition ease-in-out delay-150 ">
+                  <span className="text-lg truncate p-1 text-slate-700 hover:text-pink-800 hover:-translate-y-1 transition ease-in-out delay-150 ">
                     {" "}
                     ព័ត៌មាន
                   </span>
@@ -122,7 +122,7 @@ function Navbar({ fixed }) {
               <li className="nav-item rounded-xl">
                 <a className="px-3 py-2 flex items-center text-xs uppercase  leading-snug text-slate-700 hover:opacity-75">
                   <i className="text-slate-700 opacity-75"></i>
-                  <span className="text-lg truncate p-1 text-slate-700 hover:text-blue-800 hover:-translate-y-1 transition ease-in-out delay-150 ">
+                  <span className="text-lg truncate p-1 text-slate-700 hover:text-pink-800 hover:-translate-y-1 transition ease-in-out delay-150 ">
                     {" "}
                     ទំនាក់ទំនង
                   </span>

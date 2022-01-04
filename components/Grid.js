@@ -3,12 +3,6 @@ import Image from "next/image";
 import register from "../public/register.svg";
 import search from "../public/search.svg";
 import random from "../public/random.svg";
-import booking from "../public/booking.svg";
-import payment from "../public/payment.svg";
-import feedback from "../public/feedback.svg";
-import share from "../public/share.svg";
-import view from "../public/view.svg";
-import coin from "../public/coin.svg";
 import feature1 from "../public/feature1.svg";
 
 const Grid = () => {

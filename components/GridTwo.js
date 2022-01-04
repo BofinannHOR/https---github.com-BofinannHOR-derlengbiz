@@ -2,9 +2,7 @@ import React from "react";
 import Image from "next/image";
 import money from "../public/money.svg";
 import booking from "../public/booking.svg";
-import payment from "../public/payment.svg";
 import feedback from "../public/feedback.svg";
-
 import featureone from "../public/featureone.svg";
 
 const GridTwo = () => {

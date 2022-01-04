@@ -70,17 +70,14 @@ const Writer = () => {
               ហើយក្រុមជំនាញរបស់យើងនឹងទំនាក់ទំនងត្រលប់ទៅអ្នកវិញក្នុងរយៈពេល
               យ៉ាងយូរ៤៨ ម៉ោងបន្ទាប់។
             </p>
-            <div className="m-auto py-20">
-              <button className="coolBeans py-3 px-5">
-                <a
-                  href={process.env.NEXT_PUBLIC_BECOME_WRITER_URL}
-                  target="_blank"
-                >
-                  ចូលរួមផ្សព្វផ្សាយទេសចរកម្ពុជា ជាមួយយើងឥឡូវនេះ
-                </a>
-              </button>
-            </div>
           </div>
+        </div>
+        <div className="m-auto py-20">
+          <button className="coolBeans py-3 px-5">
+            <a href={process.env.NEXT_PUBLIC_BECOME_WRITER_URL} target="_blank">
+              ចូលរួមផ្សព្វផ្សាយទេសចរកម្ពុជា ជាមួយយើងឥឡូវនេះ
+            </a>
+          </button>
         </div>
       </div>
     </Layout>
