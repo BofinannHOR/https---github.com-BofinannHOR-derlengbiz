@@ -1,16 +1,31 @@
 import React from "react";
 import Link from "next/link";
 import Head from "next/head";
-import Navbar from "../../components/NavBar";
+import NavFooter from "../../components/NavFooter";
 
 const PrivacyPolicy = () => {
   return (
     <div>
-      <Navbar />
-      <div className="PrivacyPolicy lg:mx-36 flex flex-col text-slate-700 lg:p-10 mt-5 p-5 leading-relaxed tracking-wide">
+      <NavFooter />
+      <div className="PrivacyPolicy lg:mx-36 flex flex-col text-slate-700 lg:p-10 p-5 mt-24 leading-relaxed tracking-wide">
         <Head>
           <title>គោលការណ៍​នៃភាព​ឯកជន</title>
         </Head>
+        {/* <Link href="/">
+        <a>
+          {" "}
+          <button className="my-7">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-10 w-10 rounded-full p-1 bg-home text-white hover:bg-pink-700"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
+            </svg>
+          </button>
+        </a>
+      </Link> */}
 
         <div className="flex flex-row justify-between">
           {" "}

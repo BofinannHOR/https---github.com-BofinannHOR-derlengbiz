@@ -1,35 +1,33 @@
 import React from "react";
 import Link from "next/link";
 import Head from "next/head";
-import Navbar from "../../components/NavBar";
+import NavFooter from "../../components/NavFooter";
 
 const PrivacyPolicy = () => {
   return (
     <div>
-      <Navbar />
-      <div className="PrivacyPolicy lg:mx-36 flex flex-col text-slate-700 lg:p-10 mt-5 p-5 leading-relaxed tracking-wide">
+      <NavFooter />
+      <div className="lg:mx-36 flex flex-col text-slate-700 lg:p-10 mt-24 p-5 leading-relaxed tracking-wide">
         <Head>
           <title>គោលការណ៍​នៃភាព​ឯកជន</title>
         </Head>
-        <div className="flex flex-row w-full m-auto mb-5">
+        <div className="flex flex-row justify-between">
           {" "}
-          <div className="w-20">
-            <button className="mr-3">
+          <h2 className="mb-3">Privacy Policy</h2>
+          <div className=" w-auto ">
+            <button className=" w-20 mr-3">
               <Link href="/privacy-policy">
-                <a>Khmer</a>
+                <p>Khmer</p>
               </Link>{" "}
             </button>
-          </div>
-          <div className="w-20">
-            <button className=" rounded-lg p-1 bg-slate-800 text-white">
+            <button className="w-20 rounded-lg p-1 bg-slate-800 text-white">
               {" "}
               <Link href="/privacy-policy/en" locale="en">
-                <a>English</a>
+                <p>English</p>
               </Link>
             </button>
           </div>
-        </div>{" "}
-        <h2>Privacy Policy</h2>
+        </div>
         <h3 className="mb-1 mt-4">Introduction</h3>
         <p>
           We know that sharing your personal information with us is based on

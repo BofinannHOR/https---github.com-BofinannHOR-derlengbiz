@@ -5,7 +5,7 @@ import Image from "next/image";
 const Faq = () => {
   return (
     <div
-      id="sectionfour"
+      id="faq"
       className="section-four text-slate-700 mt-20 flex-col flex items-center lg:mx-38 mx-10 "
     >
       <h1>សំណួរ ចម្លើយ</h1>

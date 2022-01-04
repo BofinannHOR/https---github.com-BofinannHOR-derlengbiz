@@ -6,7 +6,7 @@ import GridTwo from "./GridTwo";
 const HowItWork = () => {
   return (
     <div
-      id="sectionthree"
+      id="how-it-work"
       className="section-three mx-3 p-0 text-slate-700 items-center"
     >
       <div className="items-center flex flex-col">

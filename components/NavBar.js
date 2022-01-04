@@ -60,70 +60,67 @@ function Navbar({ fixed }) {
                 <li className="nav-item hover:scale-105">
                   <a className="px-3 py-2 flex items-center text-xs uppercase  leading-snug text-slate-700 hover:opacity-75">
                     <i className=" text-slate-700 opacity-75"></i>
-                    <span className="text-lg truncate p-1 text-slate-700 hover:text-pink-800 hover:-translate-y-1 transition ease-in-out delay-150 ">
+                    <span className="text-lg truncate p-1 text-slate-700 hover:text-pink-800 ">
                       {" "}
                       ទំព័រដើម
                     </span>
                   </a>
                 </li>
               </a>
-              <a href="#sectionone">
+              <a href="#introduction">
                 {" "}
                 <li className="nav-item rounded-xl">
                   <a className="px-3 py-2 flex items-center uppercase  leading-snug text-slate-700 hover:opacity-75">
                     <i className="text-slate-700 opacity-75"></i>
-                    <span className="text-lg truncate p-1 text-slate-700 hover:text-pink-800 hover:-translate-y-1 transition ease-in-out delay-150 ">
+                    <span className="text-lg truncate p-1 text-slate-700 hover:text-pink-800 ">
                       {" "}
                       ដើរលេងជាអ្វី?
                     </span>
                   </a>
                 </li>
               </a>
-              <a href="#sectiontwo" className="scroll-smooth">
+              <a href="#ourservice">
                 {" "}
                 <li className="nav-item rounded-xl">
                   <a className="px-3 py-2 flex items-center text-xs uppercase  leading-snug text-slate-700 hover:opacity-75">
                     <i className=" text-slate-700 opacity-75"></i>
-                    <span className="text-lg truncate p-1 text-slate-700 hover:text-pink-800 hover:-translate-y-1 transition ease-in-out delay-150 ">
+                    <span className="text-lg truncate p-1 text-slate-700 hover:text-pink-800 ">
                       {" "}
                       សេវាកម្ម
                     </span>
                   </a>
                 </li>
               </a>
-              <a href="#sectionthree">
+              <a href="#how-it-work">
                 {" "}
                 <li className="nav-item rounded-xl">
                   <a className="px-3 py-2 flex items-center text-xs uppercase  leading-snug text-slate-700 hover:opacity-75">
                     <i className="text-slate-700 opacity-75"></i>
-                    <span className="text-lg truncate p-1 text-slate-700 hover:text-pink-800 hover:-translate-y-1 transition ease-in-out delay-150 ">
+                    <span className="text-lg truncate p-1 text-slate-700 hover:text-pink-800 ">
                       {" "}
                       របៀបប្រើប្រាស់
                     </span>
                   </a>
                 </li>
               </a>
-              <a href="#sectionfour">
-                {" "}
-                <li className="nav-item rounded-xl">
-                  <a
-                    className="px-3 py-2 flex items-center text-xs uppercase  leading-snug text-slate-700 hover:opacity-75"
-                    href="#pablo"
-                  >
-                    <i className="text-slate-700 opacity-75"></i>
-                    <span className="text-lg truncate p-1 text-slate-700 hover:text-pink-800 hover:-translate-y-1 transition ease-in-out delay-150 ">
-                      {" "}
-                      ព័ត៌មាន
-                    </span>
-                  </a>
-                </li>
-              </a>
-              <a href="#sectionfive">
+              <a href="#faq">
                 {" "}
                 <li className="nav-item rounded-xl">
                   <a className="px-3 py-2 flex items-center text-xs uppercase  leading-snug text-slate-700 hover:opacity-75">
                     <i className="text-slate-700 opacity-75"></i>
-                    <span className="text-lg truncate p-1 text-slate-700 hover:text-pink-800 hover:-translate-y-1 transition ease-in-out delay-150 ">
+                    <span className="text-lg truncate p-1 text-slate-700 hover:text-pink-800 ">
+                      {" "}
+                      សំណួរ ចម្លើយ
+                    </span>
+                  </a>
+                </li>
+              </a>
+              <a href="#contact-us">
+                {" "}
+                <li className="nav-item rounded-xl">
+                  <a className="px-3 py-2 flex items-center text-xs uppercase  leading-snug text-slate-700 hover:opacity-75">
+                    <i className="text-slate-700 opacity-75"></i>
+                    <span className="text-lg truncate p-1 text-slate-700 hover:text-pink-800 ">
                       {" "}
                       ទំនាក់ទំនង
                     </span>

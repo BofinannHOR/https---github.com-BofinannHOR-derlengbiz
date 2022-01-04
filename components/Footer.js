@@ -175,7 +175,7 @@ const Footer = () => {
       </div>
       <div class=" bg-white border-t border-gray-300 flex flex-col lg:flex-row justify-between">
         <small className="mt-3">© 2020 DERLENG.BIZ All rights reserved.</small>
-        <span className="mt-3 flex lg:flex-row">
+        <span className="mt-3 flex lg:flex-row lg:m-3 m-auto">
           <Link href="/term-and-condition/">
             <a>
               {" "}

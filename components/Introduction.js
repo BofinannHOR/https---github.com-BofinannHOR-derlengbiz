@@ -7,7 +7,7 @@ import Link from "next/link";
 const Introduction = () => {
   return (
     <div
-      id="sectionone"
+      id="introduction"
       class="p-3 m-4 text-slate-700 lg:mx-38 mx-10 lg:p-16 justify-between mt-28"
     >
       <div className=" mb-5">

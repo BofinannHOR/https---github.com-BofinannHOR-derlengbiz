@@ -45,7 +45,7 @@ function TopSlide() {
         {/* image */}
         {TopData.map((item) => (
           <div className="top-image-section">
-            <div className="flex items-center mt-10 p-3 h-72 w-full">
+            <div className="flex items-center p-3 h-72 w-full">
               <img
                 src={item.image}
                 alt=""

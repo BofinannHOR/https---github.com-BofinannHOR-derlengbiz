@@ -37,6 +37,9 @@ form,
 strong {
   font-family: "Siemreap", sans-serif;
 }
+.bg-home {
+  background-color: #cb1b84;
+}
 .navbar {
   height: 70px;
 }
@@ -89,7 +92,7 @@ strong {
   min-height: 3000px;
 }
 .PrivacyPolicy {
-  min-height: 2400px;
+  min-height: 2000px;
 }
 @media only screen and (max-width: 992px) {
   h1 {

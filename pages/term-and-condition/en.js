@@ -1,13 +1,13 @@
 import React from "react";
 import Head from "next/head";
-import Navbar from "../../components/NavBar";
 import Link from "next/link";
+import NavFooter from "../../components/NavFooter";
 
 const En = () => {
   return (
     <div>
-      <Navbar />
-      <div className="term lg:mx-36 flex flex-col text-slate-700 lg:p-10 mt-5 p-5 leading-relaxed tracking-wider">
+      <NavFooter />
+      <div className="term lg:mx-36 flex flex-col text-slate-700 lg:p-10 mt-24 p-5 leading-relaxed tracking-wider">
         <Head>
           <title>គោលការណ៍ និងលក្ខន្ដិក</title>
         </Head>

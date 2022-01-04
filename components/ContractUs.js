@@ -3,7 +3,7 @@ import React from "react";
 const ContractUs = () => {
   return (
     <div
-      id="sectionfive"
+      id="contact-us"
       className="section-six text-slate-700 lg:mx-38 mx-10 lg:p-20"
     >
       <div className="items-center flex flex-col">
