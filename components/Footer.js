@@ -129,12 +129,12 @@ const Footer = () => {
           <div class="">
             <h2 class=" mb-4 flex justify-start ">អំពីដើរលេង</h2>
             <Link href="/about/">
-              <a class=" mb-4 flex justify-start hover:text-pink-800 hover:-translate-y-1 transition ease-in-out delay-150">
+              <a class=" mb-4 flex justify-start hover:text-pink-800">
                 អំពីយើង
               </a>
             </Link>
             <Link href="/about/">
-              <a class=" mb-4 flex justify-start hover:text-pink-800 hover:-translate-y-1 transition ease-in-out delay-150">
+              <a class=" mb-4 flex justify-start hover:text-pink-800">
                 ថ្មីៗពីដើរលេង
               </a>
             </Link>
@@ -142,31 +142,31 @@ const Footer = () => {
           <div class="">
             <h2 class=" mb-4 flex justify-start ">ដៃគូសហការ</h2>
             <Link href="/become-our-supplier/">
-              <a class=" mb-4 flex justify-start hover:text-pink-800 hover:-translate-y-1 transition ease-in-out delay-150">
+              <a class=" mb-4 flex justify-start hover:text-pink-800">
                 អ្នកផ្គត់ផ្គង់របស់យើង
               </a>
             </Link>
             <Link href="/become-our-writer/">
-              <a class=" mb-4 flex justify-start hover:text-pink-800 hover:-translate-y-1 transition ease-in-out delay-150 ">
+              <a class=" mb-4 flex justify-start hover:text-pink-800 ">
                 ក្នុងសរសេរអត្ថបទ
               </a>
             </Link>
             <Link href="/about/">
-              <a class=" mb-4 flex justify-start hover:text-pink-800 hover:-translate-y-1 transition ease-in-out delay-150">
+              <a class=" mb-4 flex justify-start hover:text-pink-800">
                 គោលការណ៍ណែនាំ
               </a>
             </Link>
             <a
               href={process.env.NEXT_PUBLIC_LOGIN_URL}
               target="_blank"
-              class=" mb-4 flex justify-start hover:text-pink-800 hover:-translate-y-1 transition ease-in-out delay-150"
+              class=" mb-4 flex justify-start hover:text-pink-800"
             >
               ចូលទៅប្រព័ន្ធអ្នកផ្គត់ផ្គង់
             </a>{" "}
             <a
               href={process.env.NEXT_PUBLIC_SITE_LOGIN_URL}
               target="_blank"
-              class=" mb-4 flex justify-start  hover:text-pink-800 hover:-translate-y-1 transition ease-in-out delay-150"
+              class=" mb-4 flex justify-start  hover:text-pink-800"
             >
               ចូលទៅប្រព័ន្ធអ្នកសរសេរអត្ថបទ
             </a>{" "}
@@ -179,7 +179,7 @@ const Footer = () => {
           <Link href="/term-and-condition/">
             <a>
               {" "}
-              <span class="text-gray-60 mx-4 hover:text-pink-800 hover:-translate-y-1 transition ease-in-out delay-150">
+              <span class="text-gray-60 mx-4 hover:text-pink-800">
                 គោលការណ៍ និងលក្ខន្ដិក
               </span>
             </a>
@@ -187,7 +187,7 @@ const Footer = () => {
           <span>-</span>
           <Link href="/privacy-policy/">
             <a>
-              <span class="text-slate-700 mx-4 hover:text-pink-800 hover:-translate-y-1 transition ease-in-out delay-150">
+              <span class="text-slate-700 mx-4 hover:text-pink-800">
                 គោលការណ៍​នៃភាព​ឯកជន
               </span>
             </a>
