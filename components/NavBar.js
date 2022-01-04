@@ -6,7 +6,7 @@ import logo2 from "../public/derlenglogo2.png";
 function Navbar({ fixed }) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
-    <div className="navbar shadow-xl fixed w-full z-10 top-0">
+    <div className="navbar shadow-2xl fixed w-full z-10 top-0">
       <nav
         id="navbar"
         className=" py-2 relative flex flex-wrap items-center justify-between bg-white"
