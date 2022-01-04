@@ -176,7 +176,7 @@ const Footer = () => {
       <div class="text-center bg-white border-t border-gray-300 flex flex-row justify-between">
         <small className="mt-3">© 2020 DERLENG.BIZ All rights reserved.</small>
         <span className="mt-3">
-          <Link href="/term-condition/">
+          <Link href="/term-and-condition/">
             <a>
               {" "}
               <span class="text-gray-60 mx-4 hover:text-pink-800 hover:-translate-y-1 transition ease-in-out delay-150">
