@@ -10,10 +10,6 @@ const PrivacyPolicy = () => {
       <div className="PrivacyPolicy lg:mx-36 flex flex-col text-slate-700 lg:p-10 mt-5 p-5 leading-relaxed tracking-wide">
         <Head>
           <title>គោលការណ៍​នៃភាព​ឯកជន</title>
-          <meta
-            name="viewport"
-            content="initial-scale=1.0, width=device-width"
-          />
         </Head>
 
         <div className="flex flex-row justify-between">
@@ -22,13 +18,13 @@ const PrivacyPolicy = () => {
           <div className=" w-auto ">
             <button className="rounded-lg p-1 bg-slate-800 text-white w-20 mr-3">
               <Link href="/privacy-policy">
-                <a>ខ្មែរ</a>
+                <p>ខ្មែរ</p>
               </Link>{" "}
             </button>
             <button className="w-20">
               {" "}
               <Link href="/privacy-policy/en" locale="en">
-                <a>អង់គ្លេស</a>
+                <p>អង់គ្លេស</p>
               </Link>
             </button>
           </div>

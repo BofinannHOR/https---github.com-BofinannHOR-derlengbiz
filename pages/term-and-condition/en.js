@@ -10,10 +10,6 @@ const En = () => {
       <div className="term lg:mx-36 flex flex-col text-slate-700 lg:p-10 mt-5 p-5 leading-relaxed tracking-wider">
         <Head>
           <title>គោលការណ៍ និងលក្ខន្ដិក</title>
-          <meta
-            name="viewport"
-            content="initial-scale=1.0, width=device-width"
-          />
         </Head>
         <div className=" w-auto ">
           <button className="w-20 mr-3">

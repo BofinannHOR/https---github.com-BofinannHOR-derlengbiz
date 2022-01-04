@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div class="lg:p-20 p-0 text-center lg:text-left bg-white text-slate-700 mb-32 lg:mx-38 mx-10 ">
+    <div class="lg:p-20 p-0 text-center lg:text-left bg-white text-slate-700 lg:mx-38 mx-10 ">
       <div class="flex justify-center items-center lg:justify-between p-6 border-b border-gray-300">
         <div class="flex justify-center">
           <a href="#!" class="mr-6 text-slate-700">
@@ -173,9 +173,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div class="text-center bg-white border-t border-gray-300 flex flex-row justify-between">
+      <div class=" bg-white border-t border-gray-300 flex flex-col lg:flex-row justify-between">
         <small className="mt-3">© 2020 DERLENG.BIZ All rights reserved.</small>
-        <span className="mt-3">
+        <span className="mt-3 flex lg:flex-row">
           <Link href="/term-and-condition/">
             <a>
               {" "}
