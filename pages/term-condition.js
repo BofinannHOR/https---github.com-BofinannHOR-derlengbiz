@@ -6,7 +6,7 @@ const TermCondition = () => {
   return (
     <div>
       <Navbar />
-      <div className="term lg:mx-36 flex flex-col text-slate-100 lg:p-10 mt-10 p-5 leading-relaxed tracking-wider">
+      <div className="term lg:mx-36 flex flex-col text-slate-700 lg:p-10 mt-10 p-5 leading-relaxed tracking-wider">
         <Head>
           <title>គោលការណ៍ និងលក្ខន្ដិក</title>
           <meta
