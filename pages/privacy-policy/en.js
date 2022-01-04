@@ -21,13 +21,13 @@ const PrivacyPolicy = () => {
           <div className=" w-auto ">
             <button className=" w-20 mr-3">
               <Link href="/privacy-policy">
-                <a>ភាសាខ្មែរ</a>
+                <a>ខ្មែរ</a>
               </Link>{" "}
             </button>
             <button className="w-20 rounded-lg p-1 bg-slate-800 text-white">
               {" "}
               <Link href="/privacy-policy/en" locale="en">
-                <a>En</a>
+                <a>អង់គ្លេស</a>
               </Link>
             </button>
           </div>

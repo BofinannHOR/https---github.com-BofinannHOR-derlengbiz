@@ -18,13 +18,13 @@ const En = () => {
         <div className=" w-auto ">
           <button className="w-20 mr-3">
             <Link href="/term-and-condition">
-              <a>ភាសាខ្មែរ</a>
+              <a>ខ្មែរ</a>
             </Link>{" "}
           </button>
           <button className="bg-slate-800 text-white w-20 rounded-lg p-1 ">
             {" "}
             <Link href="/term-and-condition/en" locale="en">
-              <a>En</a>
+              <a>អង់គ្លេស</a>
             </Link>
           </button>
         </div>
