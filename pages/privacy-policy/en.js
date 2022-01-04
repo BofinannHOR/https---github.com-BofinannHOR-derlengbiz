@@ -33,7 +33,7 @@ const PrivacyPolicy = () => {
           </div>
         </div>
         <p>Last updated: 17/07/2020</p>
-        <h3>Introduction</h3>
+        <h3 className="mb-1 mt-4">Introduction</h3>
         <p>
           We know that sharing your personal information with us is based on
           trust. We take this seriously and are committed to ensuring that we
@@ -54,7 +54,7 @@ const PrivacyPolicy = () => {
           our employees, agents or within our control. Please take time to read
           our Terms and Conditions.
         </p>
-        <h3>1. Processing of Data</h3>
+        <h3 className="mb-1 mt-4">1. Processing of Data</h3>
         <p>
           Derleng processes your personal data that we receive from you as part
           of our business relationship. The information and data concerning you
@@ -83,7 +83,9 @@ const PrivacyPolicy = () => {
           unable to view your cardholder information as these payment gateway
           companies truncate your credit card details.
         </p>
-        <h3>2. Use of Data, Purposes and Legal Basis of the Data Processing</h3>
+        <h3 className="mb-1 mt-4">
+          2. Use of Data, Purposes and Legal Basis of the Data Processing
+        </h3>
         <p>
           We process your personal data for the order management / your booking
           and the execution of your orders and all activities required for the
@@ -104,7 +106,7 @@ const PrivacyPolicy = () => {
           to use links that appear on our site to visit other platforms, you are
           advised to read the privacy policies that appear on those sites.
         </p>
-        <h3>3. Recipients of Data</h3>
+        <h3 className="mb-1 mt-4">3. Recipients of Data</h3>
         <p>
           We will transfer your data to the tour operator who will carry out the
           tour you booked. Your data may therefore be transferred to a party
@@ -124,7 +126,7 @@ const PrivacyPolicy = () => {
           enable the matching of your email address with an existing customer
           database so that your email address cannot be used for other purposes.
         </p>
-        <h3>4. Information Security</h3>
+        <h3 className="mb-1 mt-4">4. Information Security</h3>
         <p>
           Our Website and App has stringent security measures in place to
           protect the loss, misuse, and alteration of the information under our
@@ -133,7 +135,7 @@ const PrivacyPolicy = () => {
           possession we adhere to strict security guidelines, protecting it
           against unauthorized access.
         </p>
-        <h3>5. Cookies</h3>
+        <h3 className="mb-1 mt-4">5. Cookies</h3>
         <p>
           Like many platforms, we set and use cookies to enhance your user
           experience, such as retaining your personal settings. Advertisements
@@ -141,12 +143,14 @@ const PrivacyPolicy = () => {
           your computer and is subject to the privacy policy of those parties
           providing the advertisement.
         </p>
-        <h3>6. Children</h3>
+        <h3 className="mb-1 mt-4">6. Children</h3>
         <p>
           We do not allow persons who are ages eighteen or younger to become
           members of this site or application.
         </p>
-        <h3>7. Editing or Deleting Your Account Information</h3>
+        <h3 className="mb-1 mt-4">
+          7. Editing or Deleting Your Account Information
+        </h3>
         <p>
           We provide you with the ability to edit the information in your
           account by signing into your Account. You may request deletion of your
@@ -156,12 +160,12 @@ const PrivacyPolicy = () => {
           remain on our site at our discretion even though your user account is
           deleted. Please see our Terms and Conditions.
         </p>
-        <h3>8. Changes to this Privacy Policy</h3>
+        <h3 className="mb-1 mt-4">8. Changes to this Privacy Policy</h3>
         <p>
           We may make changes to this Policy from time to time without
           notification.
         </p>
-        <h3>9. NO GUARANTEES</h3>
+        <h3 className="mb-1 mt-4">9. NO GUARANTEES</h3>
         <p>
           While this Privacy Policy states our standards for maintenance of Data
           and we will make efforts to meet them, we are not in a position to
@@ -170,7 +174,7 @@ const PrivacyPolicy = () => {
           any warranties or representations relating to maintenance or
           nondisclosure of Data.
         </p>
-        <h3>10. Contact Information</h3>
+        <h3 className="mb-1 mt-4">10. Contact Information</h3>
         <p>
           If you have any questions about this Policy or our platform, please
           feel free to at the following address:

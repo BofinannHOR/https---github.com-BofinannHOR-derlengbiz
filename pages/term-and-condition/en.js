@@ -30,7 +30,7 @@ const En = () => {
         </div>
         <h1 class="text-center">Terms & Conditions </h1>
         <h3 class="text-center">Applied for Travelers and Members</h3>
-        <h3>1. Introduction and Scope of Services</h3>
+        <h3 className="mb-1 mt-4">1. Introduction and Scope of Services</h3>
         <p>
           <strong>Derleng</strong>.biz and its subsidiaries (together "
           <strong>Derleng</strong>") provide an online platform with technology
@@ -65,7 +65,7 @@ const En = () => {
           RESPONSIBLE NOR LIABLE FOR TO ANY LISTINGS AND TOURS. BOOKINGS WITH
           THE OPERATORS ARE MADE AT THE TRAVELER'S OWN RISK.
         </p>
-        <h3>2. Applicability</h3>
+        <h3 className="mb-1 mt-4">2. Applicability</h3>
         <p>
           These terms and conditions ("Terms"), as amended from time to time,
           apply to all <strong>Derleng</strong> services. By accessing, browsing
@@ -97,21 +97,23 @@ const En = () => {
           false, or fraudulent reservation or any reservation in anticipation of
           demand is prohibited.
         </p>
-        <h3>3. Eligibility</h3>
+        <h3 className="mb-1 mt-4">3. Eligibility</h3>
         <p>
           The Services are intended solely for persons who are aged 18 years or
           older. Any access to or use of the Services by anyone under 18 years
           is expressly prohibited. By accessing or using the Services you
           guarantee that you are 18 years or older.
         </p>
-        <h3>4. Privacy</h3>
+        <h3 className="mb-1 mt-4">4. Privacy</h3>
         <p>
           <strong>Derleng</strong>'s Privacy Policy applies. Please see them for
           information and notices concerning <strong>Derleng</strong>'s
           collection and use of your personal information.
         </p>
-        <h3>5. Member Role</h3>
-        <h4>5.1. Member Registration and Login with Social Media</h4>
+        <h3 className="mb-1 mt-4">5. Member Role</h3>
+        <h4 className="mb-1 mt-4">
+          5.1. Member Registration and Login with Social Media
+        </h4>
         <p>
           In order for you to use the <strong>Derleng</strong>, you must sign up
           for a member account on the <strong>Derleng</strong> Platform, or via
@@ -146,8 +148,8 @@ const En = () => {
           brands and websites including, but not limited to{" "}
           <strong>Derleng</strong>.
         </p>
-        <h3>6. Bookings and Payments</h3>
-        <h4>6.1. Bookings by Travelers with Operators</h4>
+        <h3 className="mb-1 mt-4">6. Bookings and Payments</h3>
+        <h4 className="mb-1 mt-4">6.1. Bookings by Travelers with Operators</h4>
         <p>
           The respective Operator only, and not <strong>Derleng</strong>, is
           solely responsible to the respective Traveler for honoring any
@@ -179,7 +181,7 @@ const En = () => {
           confirmed booking. The name and contact information of the operator
           will be available on the <strong>Derleng</strong> booking voucher.
         </p>
-        <h4>6.2. Payments by Travelers</h4>
+        <h4 className="mb-1 mt-4">6.2. Payments by Travelers</h4>
         <p>
           You agree to pay for the “Total Cost” (including the price of the tour
           and, where applicable, taxes, levies and duties) for any booking
@@ -209,7 +211,7 @@ const En = () => {
           booking, or by one of the other payment methods as described on the
           Site or Application.
         </p>
-        <h4>6.3. Bank and Credit Card Fees</h4>
+        <h4 className="mb-1 mt-4">6.3. Bank and Credit Card Fees</h4>
         <p>
           Some banks and credit card companies impose fees for international
           transactions. If you are making a booking from outside of the Cambodia
@@ -228,7 +230,7 @@ const En = () => {
           transaction. If you have any questions about these fees or the
           exchange rate applied to your booking, please contact your bank.
         </p>
-        <h4>6.4. International Travel</h4>
+        <h4 className="mb-1 mt-4">6.4. International Travel</h4>
         <p>
           By offering reservations for travel in particular international
           destinations, <strong>Derleng</strong> does not represent or warrant
@@ -263,7 +265,7 @@ const En = () => {
           recommended medication, and follow all medical advice in relation to
           your trip.
         </p>
-        <h4>6.5. Traveler Cancellations and Refunds</h4>
+        <h4 className="mb-1 mt-4">6.5. Traveler Cancellations and Refunds</h4>
         <p>
           - If the applicable Operator does not confirm the requested booking,
           or, as a Traveler, you cancel your requested booking before the
@@ -293,7 +295,7 @@ const En = () => {
           any refund. If the Operator cannot confirm your request, you will
           receive a full refund.
         </p>
-        <h4>6.6. Operator Cancellations and Refunds</h4>
+        <h4 className="mb-1 mt-4">6.6. Operator Cancellations and Refunds</h4>
         <p>
           If an Operator cancels a confirmed booking made via the Services, a
           refund of the paid amount for such booking will be made to the
@@ -313,7 +315,7 @@ const En = () => {
           <strong>Derleng</strong>, please contact <strong>Derleng</strong> at
           info@derleng.biz.
         </p>
-        <h4>6.7. Changes you request or amend</h4>
+        <h4 className="mb-1 mt-4">6.7. Changes you request or amend</h4>
         <p>
           Please note that it will not be possible to make any changes to a
           booking once confirmed unless the original booking is cancelled and a
@@ -332,7 +334,7 @@ const En = () => {
           you have booked with us as we will not be liable for any costs
           incurred as a result of any mistakes by you.
         </p>
-        <h4>6.8. Special Requests</h4>
+        <h4 className="mb-1 mt-4">6.8. Special Requests</h4>
         <p>
           Please inform us at time of booking of any special requests for any
           service or facility that is not included as part of your booking. We
@@ -340,13 +342,13 @@ const En = () => {
           will try to accommodate your request, but please note such requests
           cannot be guaranteed.
         </p>
-        <h4>6.9. Information Accuracy</h4>
+        <h4 className="mb-1 mt-4">6.9. Information Accuracy</h4>
         <p>
           We and our suppliers regularly review all details about the travel
           product offered to ensure accuracy. Please note all duration times
           given are approximate.
         </p>
-        <h4>6.10. Supplier’s Conditions</h4>
+        <h4 className="mb-1 mt-4">6.10. Supplier’s Conditions</h4>
         <p>
           You are bound by the booking conditions of the relevant service
           provider and conditions of carriage where relevant and these
@@ -360,7 +362,7 @@ const En = () => {
           and conditions are available on request from <strong>Derleng</strong>{" "}
           or the relevant service provider.
         </p>
-        <h4>6.11. Travel Insurance</h4>
+        <h4 className="mb-1 mt-4">6.11. Travel Insurance</h4>
         <p>
           It is a condition of our contract with you that you and all members of
           your party have suitable and sufficient travel insurance to cover your
@@ -370,7 +372,7 @@ const En = () => {
           the time of booking a comprehensive travel insurance policy is
           purchased.
         </p>
-        <h4>6.12. Travel Voucher(s):</h4>
+        <h4 className="mb-1 mt-4">6.12. Travel Voucher(s):</h4>
         <p>
           <strong>Derleng</strong> will provide an electronic voucher
           (“E-Voucher”) in accordance with each service you have purchased.
@@ -393,7 +395,7 @@ const En = () => {
           Supplier, you may not be able to redeem the content of the service
           recognized by the E-Voucher and no refund will be granted.
         </p>
-        <h4>6.13. Airport Transfers</h4>
+        <h4 className="mb-1 mt-4">6.13. Airport Transfers</h4>
         <p>
           You are responsible for providing precise arrival time and pick up
           location information (like airport, flight number, hotel address) at
@@ -403,7 +405,7 @@ const En = () => {
           relevant service provider will not be liable for any refunds or
           penalties.
         </p>
-        <h4>6.14. Your responsibility</h4>
+        <h4 className="mb-1 mt-4">6.14. Your responsibility</h4>
         <p>
           Please note you are responsible for your and your party’s actions. If
           we or our suppliers believe your actions or those of your party could
@@ -429,7 +431,9 @@ const En = () => {
           <li>your violation of any law or the rights of a third party; or</li>
           <li>your use of this website.</li>
         </p>
-        <h4>6.15. Circumstances beyond our or our supplier’s control</h4>
+        <h4 className="mb-1 mt-4">
+          6.15. Circumstances beyond our or our supplier’s control
+        </h4>
         <p>
           No compensation of any kind or responsibility can be taken if, due to
           circumstances beyond the control of us or the relevant service
@@ -442,10 +446,10 @@ const En = () => {
           terrorist activity, civil unrest, industrial disputes and bad weather
           situations or forecasts.
         </p>
-        <h3>
+        <h3 className="mb-1 mt-4">
           7. <strong>Derleng</strong> Rewards Programs
         </h3>
-        <h4>7.1. Referral Benefits</h4>
+        <h4 className="mb-1 mt-4">7.1. Referral Benefits</h4>
         <p>
           If applicable, <strong>Derleng</strong>'s referral Benefits program
           allows you as a Traveler to earn <strong>Derleng</strong> travel
@@ -497,7 +501,7 @@ const En = () => {
           Should you choose to cancel your <strong>Derleng</strong> membership,
           any travel credits you have at the time will not be refundable.
         </p>
-        <h4>7.2. Promo Codes</h4>
+        <h4 className="mb-1 mt-4">7.2. Promo Codes</h4>
         <p>
           <strong>Derleng</strong> may in its sole discretion offer promo codes
           from time to time and unless otherwise stated they have an expiry
@@ -506,7 +510,7 @@ const En = () => {
           above for the Referral Benefits program. Only one promo code can be
           redeemed per booking and they may not be combined with travel credits.
         </p>
-        <h3>8. Content post by us</h3>
+        <h3 className="mb-1 mt-4">8. Content post by us</h3>
         <p>
           All materials and content on the Website and application, including,
           but not limited to, images, illustrations, text, audio clips, and
@@ -538,7 +542,9 @@ const En = () => {
           environment, or maintaining unauthorized links to the Site, is
           prohibited by these Terms.
         </p>
-        <h3>9. Term of Use for Reviews, Comments and Posted listing by you</h3>
+        <h3 className="mb-1 mt-4">
+          9. Term of Use for Reviews, Comments and Posted listing by you
+        </h3>
         <p>
           The Terms of Use for <strong>Derleng</strong> Customer Reviews and
           Comments regulate the user behavior related to customer evaluation and
@@ -599,7 +605,9 @@ const En = () => {
           communicate with you regarding the status of your Contents or for any
           other administrative purposes.
         </p>
-        <h3>10. Reporting Claims of Copyright Infringement</h3>
+        <h3 className="mb-1 mt-4">
+          10. Reporting Claims of Copyright Infringement
+        </h3>
         <p>
           If you believe that materials hosted by us infringes your copyright,
           please submit (or have your agent submit) to us a notice including all
@@ -645,7 +653,7 @@ const En = () => {
         the Website alleged to be infringing without prior notice, and/or to
         terminate the accounts of users who infringe any intellectual property
         rights of others.
-        <h3>11. Disclaimer</h3>
+        <h3 className="mb-1 mt-4">11. Disclaimer</h3>
         <p>
           If you choose to use the Services, you do so at your sole risk.{" "}
           <strong>Derleng</strong> does not have an obligation to conduct checks
@@ -668,7 +676,7 @@ const En = () => {
           non-infringement or fitness for a particular purpose or be available
           on an uninterrupted, secure, or error-free basis.
         </p>
-        <h3>12. Links to Third-Party Sites</h3>
+        <h3 className="mb-1 mt-4">12. Links to Third-Party Sites</h3>
         <p>
           Our website contains links to websites owned and operated by third
           parties. If you use these links you​ will be left from our website.
@@ -690,7 +698,7 @@ const En = () => {
           information, material, products or services contained on or accessed
           through any such linked website.
         </p>
-        <h3>13. Complaints</h3>
+        <h3 className="mb-1 mt-4">13. Complaints</h3>
         <p>
           Fortunately, complaints are few and far between. However, should you
           have a complaint, please contact <strong>Derleng</strong>’s customer
