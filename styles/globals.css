@@ -37,7 +37,9 @@ form,
 strong {
   font-family: "Siemreap", sans-serif;
 }
-
+.navbar {
+  height: 70px;
+}
 .section-one {
   position: relative;
   min-height: 800px;
