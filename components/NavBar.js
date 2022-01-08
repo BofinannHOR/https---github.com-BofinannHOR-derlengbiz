@@ -6,7 +6,7 @@ import logo2 from "../public/derlenglogo2.png";
 function Navbar({ fixed }) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
-    <div className="navbar shadow-2xl fixed w-full z-10 top-0 ">
+    <div className="navbar nav-shadow fixed w-full z-10 top-0 ">
       <nav
         id="navbar"
         className="  py-2 relative flex flex-wrap items-center justify-between bg-white"
@@ -16,11 +16,11 @@ function Navbar({ fixed }) {
             <div className="md:mx-20">
               <nav className="flex flex-row">
                 <Link href="/">
-                  <a className="lg:w-5/6 w-2/4">
+                  <a className="">
                     {/* <h1 className="text-8xl font-medium text-slate-700">
                     ដើរលេង
                   </h1> */}
-                    <Image src={logo2} width={250} height={100}></Image>
+                    <Image src={logo2} width={125} height={50}></Image>
                   </a>
                 </Link>
               </nav>
