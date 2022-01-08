@@ -143,7 +143,7 @@ const Footer = () => {
             </Link>
             <Link href="/become-our-writer/">
               <a class=" mb-4 flex justify-start hover:text-pink-800 ">
-                ក្នុងសរសេរអត្ថបទ
+                អ្នកសរសេរអត្ថបទ
               </a>
             </Link>
             <a
