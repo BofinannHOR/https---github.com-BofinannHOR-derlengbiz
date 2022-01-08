@@ -26,7 +26,7 @@ export default function ScrollToTop() {
   }, []);
 
   return (
-    <div className="scroll-to-top  fixed w-full z-10 bottom-4 left-3/4 lg:ml-36 ml-14 ">
+    <div className="scroll-to-top scroll-btn fixed z-10">
       {isVisible && (
         <div onClick={scrollToTop}>
           <svg

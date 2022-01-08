@@ -47,6 +47,10 @@ strong {
   position: relative;
   min-height: 800px;
 }
+.scroll-btn {
+  bottom: 4rem;
+  left: 95%;
+}
 .ios-download {
   height: 37.5rem;
 }
