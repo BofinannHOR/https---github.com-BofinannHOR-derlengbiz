@@ -6,12 +6,12 @@ import logo2 from "../public/derlenglogo2.png";
 function Navbar({ fixed }) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
-    <div className="navbar shadow-2xl fixed w-full z-10 top-0">
+    <div className="navbar shadow-2xl fixed w-full z-10 top-0 ">
       <nav
         id="navbar"
-        className=" py-2 relative flex flex-wrap items-center justify-between bg-white"
+        className="  py-2 relative flex flex-wrap items-center justify-between bg-white"
       >
-        <div className="container px-2 flex flex-col lg:flex-row lg:items-center justify-between">
+        <div className=" container px-2 flex flex-col lg:flex-row lg:items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <div className="md:mx-20">
               <nav className="flex flex-row">
@@ -111,6 +111,18 @@ function Navbar({ fixed }) {
                     <span className="text-lg truncate p-1 text-slate-700 hover:text-pink-800 ">
                       {" "}
                       សំណួរ ចម្លើយ
+                    </span>
+                  </a>
+                </li>
+              </a>
+              <a href="#topsupplier">
+                {" "}
+                <li className="nav-item rounded-xl">
+                  <a className="px-3 py-2 flex items-center text-xs uppercase  leading-snug text-slate-700 hover:opacity-75">
+                    <i className=" text-slate-700 opacity-75"></i>
+                    <span className="text-lg truncate p-1 text-slate-700 hover:text-pink-800 ">
+                      {" "}
+                      អ្នកផ្គត់ផ្គង់របស់យើង
                     </span>
                   </a>
                 </li>

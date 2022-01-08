@@ -8,9 +8,9 @@ const Introduction = () => {
   return (
     <div
       id="introduction"
-      class="p-3 m-4 text-slate-700 lg:mx-38 mx-10 lg:p-16 justify-between mt-28"
+      class="section-one p-3 m-4 text-slate-700 lg:mx-38 mx-10 lg:p-16 justify-between pt-32"
     >
-      <div className=" mb-5">
+      <div className=" mb-5 pt-14">
         <h1>ដើរលេងជាអ្វី?</h1>
       </div>
       <div>

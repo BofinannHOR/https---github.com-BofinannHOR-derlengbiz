@@ -3,11 +3,12 @@ import Layout from "../components/Layout";
 import supplier1 from "../public/supplier1.svg";
 import Image from "next/image";
 import Head from "next/head";
+import NavFooter from "../components/NavFooter";
 
 const Oursupplier = () => {
   return (
-    <Layout>
-      {" "}
+    <div>
+      <NavFooter />
       <div className="oursupplier flex flex-col text-slate-700 lg:mx-4 lg:p-10 mt-10 leading-relaxed ">
         <Head>
           <title>អ្នកផ្គត់ផ្គង់របស់យើង</title>
@@ -88,7 +89,7 @@ const Oursupplier = () => {
           </button>
         </div>
       </div>
-    </Layout>
+    </div>
   );
 };
 

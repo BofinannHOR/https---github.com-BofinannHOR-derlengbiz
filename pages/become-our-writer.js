@@ -3,11 +3,13 @@ import Layout from "../components/Layout";
 import writer from "../public/writer.svg";
 import Image from "next/image";
 import Head from "next/head";
+import NavFooter from "../components/NavFooter";
 
 const Writer = () => {
   return (
-    <Layout>
-      <div className="about flex flex-col text-slate-700 lg:mx-4 lg:p-10 leading-relaxed tracking-wider">
+    <div>
+      <NavFooter />{" "}
+      <div className="about flex flex-col text-slate-700 lg:mx-4 lg:p-10 leading-relaxed tracking-wider mt-10">
         <Head>
           <title>About</title>
           <meta
@@ -80,7 +82,7 @@ const Writer = () => {
           </button>
         </div>
       </div>
-    </Layout>
+    </div>
   );
 };
 

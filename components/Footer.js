@@ -133,11 +133,6 @@ const Footer = () => {
                 អំពីយើង
               </a>
             </Link>
-            <Link href="/about/">
-              <a class=" mb-4 flex justify-start hover:text-pink-800">
-                ថ្មីៗពីដើរលេង
-              </a>
-            </Link>
           </div>
           <div class="">
             <h2 class=" mb-4 flex justify-start ">ដៃគូសហការ</h2>
@@ -149,11 +144,6 @@ const Footer = () => {
             <Link href="/become-our-writer/">
               <a class=" mb-4 flex justify-start hover:text-pink-800 ">
                 ក្នុងសរសេរអត្ថបទ
-              </a>
-            </Link>
-            <Link href="/about/">
-              <a class=" mb-4 flex justify-start hover:text-pink-800">
-                គោលការណ៍ណែនាំ
               </a>
             </Link>
             <a

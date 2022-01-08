@@ -5,11 +5,13 @@ import aboutus from "../public/aboutus.svg";
 import vision from "../public/vision.svg";
 import mission from "../public/mission.svg";
 import Head from "next/head";
+import NavFooter from "../components/NavFooter";
 
 const About = () => {
   return (
-    <Layout>
-      <div className="about flex flex-col text-slate-700 mx-4 p-10 mt-10 leading-relaxed ">
+    <div>
+      <NavFooter />
+      <div className="about flex flex-col text-slate-700 mx-4 p-10 mt-24 leading-relaxed ">
         <Head>
           <title>About</title>
           <meta
@@ -88,8 +90,7 @@ const About = () => {
           </div>
         </div>
       </div>
-      ;
-    </Layout>
+    </div>
   );
 };
 
