@@ -10,6 +10,7 @@ import NavTest from "../components/NavBar";
 import OurService from "../components/OurService";
 import TopSuppier from "../components/TopSuppier";
 import styles from "../styles/Home.module.css";
+import Test from "../components/Test";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <Faq />
       <TopSuppier />
       <ContractUs />
+      <Test />
     </Layout>
   );
 }

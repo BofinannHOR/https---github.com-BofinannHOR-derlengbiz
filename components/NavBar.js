@@ -55,16 +55,18 @@ function Navbar({ fixed }) {
           >
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
               {" "}
-              <a href="/">
+              <a>
                 {" "}
                 <li className="nav-item hover:scale-105">
-                  <a className="px-3 py-2 flex items-center text-xs uppercase  leading-snug text-slate-700 hover:opacity-75">
-                    <i className=" text-slate-700 opacity-75"></i>
-                    <span className="text-lg truncate p-1 text-slate-700 hover:text-pink-800 ">
-                      {" "}
-                      ទំព័រដើម
-                    </span>
-                  </a>
+                  <Link href="/">
+                    <a className="px-3 py-2 flex items-center text-xs uppercase  leading-snug text-slate-700 hover:opacity-75">
+                      <i className=" text-slate-700 opacity-75"></i>
+                      <span className="text-lg truncate p-1 text-slate-700 hover:text-pink-800 ">
+                        {" "}
+                        ទំព័រដើម
+                      </span>
+                    </a>
+                  </Link>
                 </li>
               </a>
               <a href="#introduction">
