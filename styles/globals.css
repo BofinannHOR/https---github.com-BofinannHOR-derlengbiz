@@ -48,7 +48,7 @@ strong {
   min-height: 800px;
 }
 .scroll-btn {
-  bottom: 4rem;
+  bottom: 2rem;
   left: 95%;
 }
 .ios-download {
@@ -114,6 +114,10 @@ strong {
   p,
   li {
     font-size: 11pt;
+  }
+  .scroll-btn {
+    bottom: 2rem;
+    left: 85%;
   }
 }
 .coolBeans {

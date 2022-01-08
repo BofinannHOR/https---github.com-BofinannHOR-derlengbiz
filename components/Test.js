@@ -31,7 +31,7 @@ export default function ScrollToTop() {
         <div onClick={scrollToTop}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="h-12 w-12 text-white bg-slate-800 rounded-full hover:bg-slate-600"
+            class="h-10 w-10 p-2.5 text-white bg-slate-800 rounded-full hover:bg-slate-600"
             viewBox="0 0 20 20"
             fill="currentColor"
           >
