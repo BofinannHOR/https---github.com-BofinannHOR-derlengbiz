@@ -132,7 +132,7 @@ strong {
     left: 85%;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .sizegrid {
     width: 24rem;
     height: 13rem;
