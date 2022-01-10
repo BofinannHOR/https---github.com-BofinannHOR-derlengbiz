@@ -54,11 +54,11 @@ function ServiceSlide() {
               />
               {/* content */}
               <div className="p-6 flex flex-col rounded-xl server-slide-info lg:h-44 h-48 absolute z-50 bg-gray-50 mt-60 lg:mt-64 items-start shadow-md">
-                <h3 className="mb-3">{item.title}</h3>
+                <h3 className="mb-1">{item.title}</h3>
                 <p className="tracking-wide leading-relaxed">
                   {item.description}
                 </p>
-                <button className="mt-3 text-slate-600 border-slate-600 flex flex-row">
+                <button className="mt-1 text-slate-600 border-slate-600 flex flex-row">
                   <h3 className="text-base mr-2">អាន​បន្ថែម</h3>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
