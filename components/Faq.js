@@ -21,7 +21,7 @@ const Faq = () => {
           <div className=" flex flex-col text-slate-700">
             <div className="my-5">
               <h3 className="mb-3">ទាញយកកម្មវិធី Derleng App?</h3>
-              <p className="text-sm md:text-base lg:text-lg">
+              <p className="text-base md:text-base lg:text-lg">
                 ចូលទៅ App Store ឬ Play Store បន្ទាប់មកស្វែងរក Derleng App
                 ហើយចុះឈ្មោះបង្កើតគណនីជាមួយ Email ឬ Facebook
                 របស់លោកអ្នកយ៉ាងងាយស្រួល។
@@ -29,7 +29,7 @@ const Faq = () => {
             </div>
             <div className="my-5">
               <h3 className="mb-3">ចាប់ផ្តើមប្រើសេវា Derleng App?</h3>
-              <p className="text-sm md:text-base lg:text-lg">
+              <p className="text-base md:text-base lg:text-lg">
                 បើកកម្មវិធី Derleng App នៅលើទូរសព្ទដៃអ្នក
                 ហើយបន្ទាប់មកចាប់ផ្តើមកំណត់យកដំណើរកំសាន្តណាមួយ រួចហើយចុចពាក្យថា
                 កក់ឥឡូវនេះ(Booking)។
@@ -39,7 +39,7 @@ const Faq = () => {
               <h3 className="mb-3">
                 តើខ្ញុំអាចដាក់ពាក្យធ្វើជាអ្នកសរសេរមាតិកា ឬ អ្នកផ្គត់ផ្គង់បានទេ?
               </h3>
-              <p className="text-sm md:text-base lg:text-lg">
+              <p className="text-base md:text-base lg:text-lg">
                 បាទអ្នកអាចដាក់ពាក្យសុំពីគេហទំព័ររបស់យើងសម្រាប់ទាំងពីរជម្រើស
                 និងកម្មវិធីទូរស័ព្ទចល័តរបស់យើងសម្រាប់អ្នកនិពន្ធមាតិកា។
               </p>

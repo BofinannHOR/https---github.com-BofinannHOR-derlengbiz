@@ -56,7 +56,7 @@ const ContractUs = () => {
             ក្រុមហ៊ុន ដើរលេង ត្រាវែល តិចណូឡូជី ខូអិលធីឌី ​(Derleng Travel
             Technology Co., Ltd)
           </p>
-          <p className="mb-5  text-sm md:text-base lg:text-lg">
+          <p className="mb-5  text-base md:text-base lg:text-lg">
             ផ្ទះលេខ ០៦៧៧ ក្រុម ២៥ បន្ទាយចាស់ សង្កាត់ស្លរក្រាម ក្រុងសៀមរាប
             ខេត្តសៀមរាប កម្ពុជា ១៧២៥១
           </p>

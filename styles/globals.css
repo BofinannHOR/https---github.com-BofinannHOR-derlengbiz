@@ -69,6 +69,9 @@ strong {
 .section-two img {
   width: 95%;
 }
+.server-slide-info {
+  width: 30rem;
+}
 .server-image-section {
   height: 500px;
 }
@@ -121,7 +124,8 @@ strong {
   }
   p,
   li {
-    font-size: 11pt;
+    font-size: 13pt;
+    line-height: 1.5rem;
   }
   .scroll-btn {
     bottom: 2rem;
@@ -133,9 +137,8 @@ strong {
     width: 24rem;
     height: 13rem;
   }
-}
-@media (min-width: 768px) {
-  .serverslide-img-slide {
+  .server-slide-info {
+    width: 20rem;
   }
 }
 

@@ -14,7 +14,7 @@ const Introduction = () => {
         <h1>ដើរលេងជាអ្វី?</h1>
       </div>
       <div>
-        <p className="text-sm md:text-base lg:text-lg tracking-wider lg:leading-loose leading-loose mb-20">
+        <p className="text-base md:text-base lg:text-lg tracking-wider lg:leading-loose leading-loose mb-20">
           ដើរលេង គឺជា កម្មវិធីចល័ត ឬ Mobile App ដែលមានទម្រង់ជាបណ្តុំទីផ្សារ ឬ
           Marketplace Platform ដំបូងគេ
           បង្កើតឡើងដើម្បីជាជំនួយការដ៏ឆ្លាតវៃក្នុងការរៀបចំផែនការទេសចរណ៍លក្ខណៈគ្រួសារ

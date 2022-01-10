@@ -21,7 +21,7 @@ const Grid = () => {
           <div className="mt-6 flex flex-col items-center sizegrid rounded-xl p-4 bg-gray-50 ">
             <Image src={register} width={80} height={80}></Image>
             <h3 className="mt-2">ចុះឈ្មោះ</h3>
-            <p className="text-center mt-3 text-sm md:text-base lg:text-lg">
+            <p className="text-center mt-3 text-base md:text-base lg:text-lg">
               វីធីងាយៗ គ្រាន់តែអ្នកចុះឈ្មោះតាមរយះបណ្តាញសង្គម រឺ
               តាមអ៊ីមែលដោយឥតគិតថ្លៃ
             </p>
@@ -31,7 +31,7 @@ const Grid = () => {
           <div className=" mt-6 flex flex-col items-center sizegrid rounded-xl p-4 bg-gray-50 ">
             <Image src={search} width={80} height={80}></Image>
             <h3 className="lg:mt-2 mt-6">ស្វែងរក</h3>
-            <p className="text-center mt-3 text-sm md:text-base lg:text-lg">
+            <p className="text-center mt-3 text-base md:text-base lg:text-lg">
               ជ្រើសរើសសេវាកម្មដ៏សម្បូរបែប ពីអ្នកផ្គត់ផ្គង់ដែលមានបទពិសោធន៍ និង
               ទុកចិត្តបាន
             </p>
@@ -41,7 +41,7 @@ const Grid = () => {
           <div className="mt-6 flex flex-col items-center sizegrid rounded-xl p-4 bg-gray-50 ">
             <Image src={random} width={80} height={80}></Image>
             <h3 className="mt-2">ប្រៀបធៀប</h3>
-            <p className="text-center mt-3 text-sm md:text-base lg:text-lg">
+            <p className="text-center mt-3 text-base md:text-base lg:text-lg">
               ប្រៀបធៀប និង ជ្រើសរើស នូវសេវាកម្មដែលអ្នកពេញចិត្ត ទាំងតំលៃ និង
               គុណភាព
             </p>

@@ -12,7 +12,7 @@ const HowItWork = () => {
       <div className="items-center flex flex-col">
         {" "}
         <h1 className="mb-3 m-auto pt-32">របៀបប្រើប្រាស់</h1>{" "}
-        <p className="text-center">
+        <p className="text-center text-base md:text-base lg:text-lg">
           ពេលនឹកចង់ដើរលេងម្តងៗ ពិតជាពិបាកក្នុងការសំរេចចិត្ត មែនទេ?
           លែងជាកង្វល់ទៀតហើយ ដើរលេងជួយអ្នកបាន
         </p>
