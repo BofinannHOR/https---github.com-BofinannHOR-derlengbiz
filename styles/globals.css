@@ -37,11 +37,16 @@ form,
 strong {
   font-family: "Siemreap", sans-serif;
 }
+.sizegrid {
+  width: 24rem;
+  height: 13rem;
+}
 .bg-home {
   background-color: #cb1b84;
 }
 .navbar {
   height: 70px;
+  margin: 0;
 }
 .nav-shadow {
   filter: drop-shadow(0.1rem 0.5rem 0.8rem rgb(250, 250, 250));

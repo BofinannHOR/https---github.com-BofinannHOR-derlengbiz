@@ -10,7 +10,7 @@ const ContractUs = () => {
         <h1 className="my-10">ទំនាក់ទំនងមកពួកយើង</h1>
       </div>
       <div className="flex flex-col lg:flex-row form-height">
-        <div className="bg-white  md:w-2/3 lg:w-1/2 rounded">
+        <div className="bg-white md:w-full lg:w-1/2 rounded">
           <form>
             <div className="flex items-center mb-10">
               <input
@@ -52,15 +52,15 @@ const ContractUs = () => {
         {/* ------------- */}
         <div className="bg-white lg:ml-10 lg:mt-0 mt-10 rounded">
           <h3 className="mb-3">ភ្ជាប់ទំនាក់ទំនង</h3>
-          <p className="mb-1">
+          <p className="mb-1  text-sm md:text-base lg:text-lg">
             ក្រុមហ៊ុន ដើរលេង ត្រាវែល តិចណូឡូជី ខូអិលធីឌី ​(Derleng Travel
             Technology Co., Ltd)
           </p>
-          <p className="mb-5">
+          <p className="mb-5  text-sm md:text-base lg:text-lg">
             ផ្ទះលេខ ០៦៧៧ ក្រុម ២៥ បន្ទាយចាស់ សង្កាត់ស្លរក្រាម ក្រុងសៀមរាប
             ខេត្តសៀមរាប កម្ពុជា ១៧២៥១
           </p>
-          <div className="flex flex-row mb-3">
+          <div className="flex flex-row mb-3 ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5 mr-2"

@@ -11,9 +11,9 @@ function Navbar({ fixed }) {
         id="navbar"
         className="  py-2 relative flex flex-wrap items-center justify-between bg-white"
       >
-        <div className=" container px-2 flex flex-col lg:flex-row lg:items-center justify-between">
+        <div className="w-full flex flex-col lg:flex-row justify-between mx-4">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
-            <div className="md:mx-20">
+            <div className="">
               <nav className="flex flex-row">
                 <Link href="/">
                   <a className="">
@@ -25,30 +25,33 @@ function Navbar({ fixed }) {
                 </Link>
               </nav>
             </div>
-            <button
-              className="text-slate-700 cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
-              type="button"
-              onClick={() => setNavbarOpen(!navbarOpen)}
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-10 w-10"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
+            <div>
+              {" "}
+              <button
+                className="text-slate-700 cursor-pointer text-xl leading-none  py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+                type="button"
+                onClick={() => setNavbarOpen(!navbarOpen)}
               >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M4 6h16M4 12h16M4 18h16"
-                />
-              </svg>
-            </button>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-10 w-10"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h16M4 18h16"
+                  />
+                </svg>
+              </button>
+            </div>
           </div>
           <div
             className={
-              "lg:flex flex-grow items-center xl:border-non lg:p-0 p-6" +
+              "lg:flex flex-grow items-end xl:border-non lg:p-0 p-6" +
               (navbarOpen ? " flex" : " hidden")
             }
             id="example-navbar-danger"

@@ -20,29 +20,29 @@ const Gridthree = () => {
           {/*---  */}
           {/* ---- */}
           {/*---  */}
-          <div className="mt-6 flex flex-col items-center w-96 h-52 rounded-xl p-4 bg-gray-50 ">
-            <Image src={share}></Image>
+          <div className="sizegrid mt-6 flex flex-col items-center w-96 h-52 rounded-xl p-4 bg-gray-50 ">
+            <Image src={share} width={80} height={80}></Image>
             <h3 className="mt-2">ចែករំលែក</h3>
-            <p className="text-center mt-3">
+            <p className="text-center mt-3 text-sm md:text-base lg:text-lg">
               ចែករំលែកនូវ កន្លែងកំសាន្ត សេវាកម្ម រឺ បទពិសោធន៍ថ្មីៗ
               សំរាប់អ្នកទេសចរផ្សេងទៀត
             </p>
           </div>
           {/* ---- */}
           {/*---  */}
-          <div className="mt-6 flex flex-col items-center w-96 h-52 rounded-xl p-4 bg-gray-50 ">
-            <Image src={coin}></Image>
+          <div className="sizegrid mt-6 flex flex-col items-center w-96 h-52 rounded-xl p-4 bg-gray-50 ">
+            <Image src={coin} width={80} height={80}></Image>
             <h3 className="mt-2">សន្សំពិន្ទុ</h3>
-            <p className="text-center mt-3">
+            <p className="text-center mt-3 text-sm md:text-base lg:text-lg">
               កក់កាន់តែច្រើន បានពិន្ទុកាន់តែច្រើន ដើរលេងដោយឥតគិតថ្លៃនៅពេលក្រោយ
             </p>
           </div>
           {/* ---- */}
           {/*---  */}
-          <div className="mt-6 flex flex-col items-center w-96 h-52 rounded-xl p-4 bg-gray-50 ">
-            <Image src={view}></Image>
+          <div className="sizegrid mt-6 flex flex-col items-center w-96 h-52 rounded-xl p-4 bg-gray-50 ">
+            <Image src={view} width={80} height={80}></Image>
             <h3 className="mt-2">ចូលមើល</h3>
-            <p className="text-center mt-3">
+            <p className="text-center mt-3 text-sm md:text-base lg:text-lg">
               ការមើលទំព័រគឺជាចំនួនដងដែលទម្រង់របស់ទំព័រត្រូវបានមើល{" "}
             </p>
           </div>
