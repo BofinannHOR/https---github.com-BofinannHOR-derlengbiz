@@ -50,10 +50,10 @@ function ServiceSlide() {
               <img
                 src={item.image}
                 alt=""
-                className="object-cover md:h-96 h-80 rounded-xl "
+                className="object-cover serverslide-img-slide h-80 rounded-xl "
               />
               {/* content */}
-              <div className="p-6 flex flex-col rounded-xl lg:w-96 w-60 lg:h-44 h-48 absolute z-50 bg-gray-50 mt-60 lg:mt-64 items-start shadow-md">
+              <div className="p-6 flex flex-col rounded-xl lg:w-96 w-96 lg:h-44 h-48 absolute z-50 bg-gray-50 mt-60 lg:mt-64 items-start shadow-md">
                 <h3 className="mb-3">{item.title}</h3>
                 <p className="tracking-wide leading-relaxed">
                   {item.description}

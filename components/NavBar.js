@@ -11,7 +11,7 @@ function Navbar({ fixed }) {
         id="navbar"
         className="  py-2 relative flex flex-wrap items-center justify-between bg-white"
       >
-        <div className="w-full flex flex-col lg:flex-row justify-between mx-4">
+        <div className="w-full flex flex-col lg:flex-row justify-between mx-14">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <div className="">
               <nav className="flex flex-row">

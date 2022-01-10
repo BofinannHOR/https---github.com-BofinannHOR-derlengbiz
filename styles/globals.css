@@ -38,7 +38,7 @@ strong {
   font-family: "Siemreap", sans-serif;
 }
 .sizegrid {
-  width: 24rem;
+  width: 40rem;
   height: 13rem;
 }
 .bg-home {
@@ -67,7 +67,7 @@ strong {
   min-height: 700px;
 }
 .section-two img {
-  width: 600px;
+  width: 95%;
 }
 .server-image-section {
   height: 500px;
@@ -128,6 +128,17 @@ strong {
     left: 85%;
   }
 }
+@media only screen and (max-width: 768px) {
+  .sizegrid {
+    width: 24rem;
+    height: 13rem;
+  }
+}
+@media (min-width: 768px) {
+  .serverslide-img-slide {
+  }
+}
+
 .coolBeans {
   /* border: 2px solid currentColor; */
   background-color: rgb(222, 229, 233);
